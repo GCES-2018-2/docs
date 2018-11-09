@@ -1,0 +1,15 @@
+site_name: SIGS
+
+nav:
+  - Home: index.md
+  - Stylesheet: 
+    - Css: stylesheet/css
+  
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+
+markdown_extensions:
+  - codehilite
