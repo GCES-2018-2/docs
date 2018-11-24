@@ -1,4 +1,4 @@
-#How to name css classes
+## How to name css classes
 
 
 ## 0. Before to think about class name, choose a good name for HTML elements

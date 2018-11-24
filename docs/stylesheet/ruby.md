@@ -1,11 +1,5 @@
-#SIGS - Folha de Estilo
 
-<a name="summary1"></a>
-<a name="summary2"></a>
-<a name="summary3"></a>
-<a name="summary4"></a>
-
-# SUMÁRIO
+## SUMÁRIO
 1. [Declaração de classes, funções e variáveis](#head1)<br />
 2. [Identação chaves e colchetes](#head2)<br />
 3. [Rotas](#head3)<br />

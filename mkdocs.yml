@@ -4,6 +4,7 @@ nav:
   - Home: index.md
   - Contribute: contribute.md
   - Stylesheet:
+    - Ruby: stylesheet/ruby.md
     - Css: stylesheet/css.md
   - Contributors: contributors.md
   - Planejamento da Release: Planejamento-da-Release.md
@@ -22,7 +23,6 @@ nav:
     - Gerenciamento de Aquisições: Plano-de-Gerenciamento-de-Aquisicoes.md
     - Gerenciamento de Comunicação: Plano-de-Gerenciamento-de-Comunicacao.md
     - Gerenciamento de Configuração de Software: Plano-de-Gerenciamento-de-Configuracao-de-Software.md
-    - Folha de Estilo: Folha-de-Estilo.md
     - Gerenciamento de Qualidade: Plano-de-Gerenciamento-de-Qualidade.md
     - Plano GQM: Plano-GQM.md 
     - Gerenciamento das Partes Interessadas: Plano-de-Gerenciamento-de-Partes-Interessadas.md
