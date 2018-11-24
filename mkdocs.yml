@@ -2,8 +2,10 @@ site_name: SIGS
 
 nav:
   - Home: index.md
-  - Stylesheet: 
-    - Css: stylesheet/css
+  - Contribute: contribute.md
+  - Stylesheet:
+    - Css: stylesheet/css.md
+  - Contributors: contributors.md
   
 theme:
   name: 'material'
