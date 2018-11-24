@@ -6,49 +6,43 @@ nav:
   - Stylesheet:
     - Css: stylesheet/css.md
   - Contributors: contributors.md
-  - Release 1: 
-    - Release Notes: https://github.com/fga-gpp-mds/2017.1-SIGS/releases
-  - Release 2: 
-    - Planejamento da Release: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Planejamento-da-Release
-    - Release Notes: https://github.com/fga-gpp-mds/2017.1-SIGS/releases
+  - Planejamento da Release: Planejamento-da-Release.md
   - Gerenciamento do Projeto:
     - Metodologia: Metodologia.md
-    - Backlog do Produto: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Backlog-do-Produto 
-    - Roadmap: Planejamento-da-Release#3-roadmap
-    - Glossário: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Gloss%C3%A1rio 
-    - Termo de Abertura do Projeto: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Termo-de-Abertura-do-Projeto
-    - Planos PMBOK: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Projeto---PMBOK
-    - Gerenciamento de Projeto: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Projeto
-    - Gerenciamento de Escopo: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Escopo
-    - Estrutura Analitica Do Projeto: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/estrutura-analitica-do-projeto
-    - Gerenciamento de Cronograma: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Cronograma
-    - Gerenciamento de Riscos: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Riscos
-    - Gerenciamento de Aquisições: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Aquisi%C3%A7%C3%B5es
-    - Gerenciamento de Comunicação: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Comunica%C3%A7%C3%A3o
-    - Gerenciamento de Configuração de Software: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software
-    - Tutorial de instalação: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Comandos-de-Instala%C3%A7%C3%A3o-do-Ambiente
-    - Folha de Estilo: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Folha-de-Estilo
-    - Gerenciamento de Custos: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Custo
-    - Relatório de Custos: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Relatorio-de-Custos
-    - Gerenciamento de Qualidade: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Qualidade
-    - Plano GQM: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-GQM 
-    - Gerenciamento das Partes Interessadas: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Partes-Interessadas
-    - Gerenciamento de Recursos Humanos: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Recursos-Humanos 
-    - Plano de Treinamento: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Treinamento 
-    - Gerenciamento de Requisitos: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Requisitos
-    - Controle das Mudanças: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/controle-das-mudancas
-    - Coleta Métricas: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Execu%C3%A7%C3%A3o-do-Plano-de-Qualidade
+    - Backlog do Produto: Backlog-do-Produto 
+    - Roadmap: Planejamento-da-Release#3-roadmap.md
+    - Glossário: Gloss%C3%A1rio.md
+    - Termo de Abertura do Projeto: Termo-de-Abertura-do-Projeto.md
+    - Planos PMBOK: Plano-de-Projeto---PMBOK.md
+    - Gerenciamento de Projeto: Plano-de-Gerenciamento-de-Projeto.md
+    - Gerenciamento de Escopo: Plano-de-Gerenciamento-de-Escopo.md
+    - Estrutura Analitica Do Projeto: estrutura-analitica-do-projeto.md
+    - Gerenciamento de Cronograma: Plano-de-Gerenciamento-de-Cronograma.md
+    - Gerenciamento de Riscos: Plano-de-Gerenciamento-de-Riscos.md
+    - Gerenciamento de Aquisições: Plano-de-Gerenciamento-de-Aquisi%C3%A7%C3%B5es.md
+    - Gerenciamento de Comunicação: Plano-de-Gerenciamento-de-Comunica%C3%A7%C3%A3o.md
+    - Gerenciamento de Configuração de Software: Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software.md
+    - Tutorial de instalação: Comandos-de-Instala%C3%A7%C3%A3o-do-Ambiente.md
+    - Folha de Estilo: Folha-de-Estilo.md
+    - Gerenciamento de Qualidade: Plano-de-Gerenciamento-de-Qualidade.md
+    - Plano GQM: Plano-GQM.md 
+    - Gerenciamento das Partes Interessadas: Plano-de-Gerenciamento-de-Partes-Interessadas.md
+    - Gerenciamento de Recursos Humanos: Plano-de-Gerenciamento-de-Recursos-Humanos.md
+    - Plano de Treinamento: Plano-de-Treinamento.md
+    - Gerenciamento de Requisitos: Plano-de-Gerenciamento-de-Requisitos.md
+    - Controle das Mudanças: controle-das-mudancas.md
+    - Coleta Métricas: Execu%C3%A7%C3%A3o-do-Plano-de-Qualidade.md
   - Desenvolvimento do Software:
-    - Documento de Visão: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Documento-de-Vis%C3%A3o
-    - Documento de Arquitetura: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Documento-de-Arquitetura
-    - Diagrama de Casos de uso: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Diagrama-de-Casos-de-Uso
-    - Modelo de Domínio: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Modelo-de-Domínio
-    - Diagrama de Classes: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Diagrama-de-Classe
-    - Especificação dos Casos de Uso: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Especifica%C3%A7%C3%A3o-dos-casos-de-uso
-    - Especificação dos Casos de Teste: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Especifica%C3%A7%C3%A3o-dos-casos-de-teste
-    - Especificação Suplementar: https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Especifica%C3%A7%C3%A3o-Suplementar
-    - Protótipo de Alta Fidelidade: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Protótipo-de-Alta-Fidelidade
-    - Relatório de Casos de Teste: https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Relatório-de-Casos-de-Teste
+    - Documento de Visão: documento-de-visao.md
+    - Documento de Arquitetura: Documento-de-Arquitetura.md
+    - Diagrama de Casos de uso: Diagrama-de-Casos-de-Uso.md
+    - Modelo de Domínio: Modelo-de-Domínio.md
+    - Diagrama de Classes: Diagrama-de-Classe.md
+    - Especificação dos Casos de Uso: especificacao-dos-casos-de-uso.md
+    - Especificação dos Casos de Teste: especificacao-dos-casos-de-teste.md
+    - Especificação Suplementar: especificacao-suplementar.md
+    - Protótipo de Alta Fidelidade: Protótipo-de-Alta-Fidelidade.md
+    - Relatório de Casos de Teste: Relatório-de-Casos-de-Teste.md
   
 theme:
   name: 'material'
