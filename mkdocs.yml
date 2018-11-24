@@ -11,7 +11,7 @@ nav:
     - Metodologia: Metodologia.md
     - Backlog do Produto: Backlog-do-Produto 
     - Roadmap: Planejamento-da-Release#3-roadmap.md
-    - Glossário: Gloss%C3%A1rio.md
+    - Glossário: Glossario.md
     - Termo de Abertura do Projeto: Termo-de-Abertura-do-Projeto.md
     - Planos PMBOK: Plano-de-Projeto---PMBOK.md
     - Gerenciamento de Projeto: Plano-de-Gerenciamento-de-Projeto.md
@@ -19,19 +19,16 @@ nav:
     - Estrutura Analitica Do Projeto: estrutura-analitica-do-projeto.md
     - Gerenciamento de Cronograma: Plano-de-Gerenciamento-de-Cronograma.md
     - Gerenciamento de Riscos: Plano-de-Gerenciamento-de-Riscos.md
-    - Gerenciamento de Aquisições: Plano-de-Gerenciamento-de-Aquisi%C3%A7%C3%B5es.md
-    - Gerenciamento de Comunicação: Plano-de-Gerenciamento-de-Comunica%C3%A7%C3%A3o.md
-    - Gerenciamento de Configuração de Software: Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software.md
-    - Tutorial de instalação: Comandos-de-Instala%C3%A7%C3%A3o-do-Ambiente.md
+    - Gerenciamento de Aquisições: Plano-de-Gerenciamento-de-Aquisicoes.md
+    - Gerenciamento de Comunicação: Plano-de-Gerenciamento-de-Comunicacao.md
+    - Gerenciamento de Configuração de Software: Plano-de-Gerenciamento-de-Configuracao-de-Software.md
     - Folha de Estilo: Folha-de-Estilo.md
     - Gerenciamento de Qualidade: Plano-de-Gerenciamento-de-Qualidade.md
     - Plano GQM: Plano-GQM.md 
     - Gerenciamento das Partes Interessadas: Plano-de-Gerenciamento-de-Partes-Interessadas.md
-    - Gerenciamento de Recursos Humanos: Plano-de-Gerenciamento-de-Recursos-Humanos.md
-    - Plano de Treinamento: Plano-de-Treinamento.md
     - Gerenciamento de Requisitos: Plano-de-Gerenciamento-de-Requisitos.md
     - Controle das Mudanças: controle-das-mudancas.md
-    - Coleta Métricas: Execu%C3%A7%C3%A3o-do-Plano-de-Qualidade.md
+    - Coleta Métricas: Execucao-do-Plano-de-Qualidade.md
   - Desenvolvimento do Software:
     - Documento de Visão: documento-de-visao.md
     - Documento de Arquitetura: Documento-de-Arquitetura.md
