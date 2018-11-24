@@ -1,0 +1,917 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Gerenciamento de Projeto - SIGS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../#historico-de-revisoes" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="SIGS" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                SIGS
+              </span>
+              <span class="md-header-nav__topic">
+                Gerenciamento de Projeto
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="SIGS" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    SIGS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Stylesheet
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Stylesheet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stylesheet/ruby/" title="Ruby" class="md-nav__link">
+      Ruby
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stylesheet/css/" title="Css" class="md-nav__link">
+      Css
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../contributors/" title="Contributors" class="md-nav__link">
+      Contributors
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Planejamento-da-Release/" title="Planejamento da Release" class="md-nav__link">
+      Planejamento da Release
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Gerenciamento do Projeto
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Gerenciamento do Projeto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Backlog-do-Produto" title="Backlog do Produto" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Planejamento-da-Release#3-roadmap.md" title="Roadmap" class="md-nav__link">
+      Roadmap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Glossario/" title="Glossário" class="md-nav__link">
+      Glossário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Termo-de-Abertura-do-Projeto/" title="Termo de Abertura do Projeto" class="md-nav__link">
+      Termo de Abertura do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Projeto---PMBOK/" title="Planos PMBOK" class="md-nav__link">
+      Planos PMBOK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Gerenciamento de Projeto" class="md-nav__link md-nav__link--active">
+      Gerenciamento de Projeto
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Escopo/" title="Gerenciamento de Escopo" class="md-nav__link">
+      Gerenciamento de Escopo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../estrutura-analitica-do-projeto/" title="Estrutura Analitica Do Projeto" class="md-nav__link">
+      Estrutura Analitica Do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Cronograma/" title="Gerenciamento de Cronograma" class="md-nav__link">
+      Gerenciamento de Cronograma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Riscos/" title="Gerenciamento de Riscos" class="md-nav__link">
+      Gerenciamento de Riscos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Aquisicoes/" title="Gerenciamento de Aquisições" class="md-nav__link">
+      Gerenciamento de Aquisições
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Comunicacao/" title="Gerenciamento de Comunicação" class="md-nav__link">
+      Gerenciamento de Comunicação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Configuracao-de-Software/" title="Gerenciamento de Configuração de Software" class="md-nav__link">
+      Gerenciamento de Configuração de Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Qualidade/" title="Gerenciamento de Qualidade" class="md-nav__link">
+      Gerenciamento de Qualidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-GQM/" title="Plano GQM" class="md-nav__link">
+      Plano GQM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Partes-Interessadas/" title="Gerenciamento das Partes Interessadas" class="md-nav__link">
+      Gerenciamento das Partes Interessadas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Requisitos/" title="Gerenciamento de Requisitos" class="md-nav__link">
+      Gerenciamento de Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../controle-das-mudancas/" title="Controle das Mudanças" class="md-nav__link">
+      Controle das Mudanças
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Execucao-do-Plano-de-Qualidade/" title="Coleta Métricas" class="md-nav__link">
+      Coleta Métricas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Desenvolvimento do Software
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Desenvolvimento do Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../documento-de-visao/" title="Documento de Visão" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Documento-de-Arquitetura/" title="Documento de Arquitetura" class="md-nav__link">
+      Documento de Arquitetura
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Diagrama-de-Casos-de-Uso/" title="Diagrama de Casos de uso" class="md-nav__link">
+      Diagrama de Casos de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Modelo-de-Domínio/" title="Modelo de Domínio" class="md-nav__link">
+      Modelo de Domínio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Diagrama-de-Classe/" title="Diagrama de Classes" class="md-nav__link">
+      Diagrama de Classes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-dos-casos-de-uso/" title="Especificação dos Casos de Uso" class="md-nav__link">
+      Especificação dos Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-dos-casos-de-teste/" title="Especificação dos Casos de Teste" class="md-nav__link">
+      Especificação dos Casos de Teste
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-suplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Protótipo-de-Alta-Fidelidade/" title="Protótipo de Alta Fidelidade" class="md-nav__link">
+      Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Relatório-de-Casos-de-Teste/" title="Relatório de Casos de Teste" class="md-nav__link">
+      Relatório de Casos de Teste
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h2 id="historico-de-revisoes">Histórico de Revisões</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Responsável</th>
+<th>Versão</th>
+<th>Mudança realizada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>21/03/2017</strong></td>
+<td>Gesiel Freitas e Vinicius Pinheiro</td>
+<td>0.1</td>
+<td>Estrutura inicial e criação dos tópicos (1, 2, 3, 6)</td>
+</tr>
+<tr>
+<td><strong>29/03/2017</strong></td>
+<td>Lucas Andrade</td>
+<td>0.2</td>
+<td>Adicionando objetivo do PMBOK no projeto</td>
+</tr>
+<tr>
+<td><strong>01/04/2017</strong></td>
+<td>Vinicius Pinheiro</td>
+<td>1.0</td>
+<td>Finalização do Plano de Gerenciamento de Projeto</td>
+</tr>
+</tbody>
+</table>
+<h1 id="1-introducao">1. Introdução</h1>
+<p>Este documento apresenta o Plano de gerenciamento de projeto do <strong>SIGS</strong> (Sistema Inteligente de Gestão de Salas). Todas as informações contidas neste documento fazem referências a este projeto e tem por objetivo apresentar o ciclo de vida, as linhas de base e os planos de gerenciamento desenvolvidos.</p>
+<h2 id="11-ciclo-de-vida-do-projeto">1.1 Ciclo de Vida do Projeto</h2>
+<p>A engenharia de software reuni metodologias, métodos e ferramentas a serem utilizadas visando agregar valor ao produto desenvolvido e transformá-lo de um produto operacional a uma solução de problemas inerentes tanto ao processo de desenvolvimento como ao produto de software.
+Com isso a engenharia de software deixou de ser sinônimo de código e passou a adotar metodologias de desenvolvimento para projetos.</p>
+<p>Hoje em dia as duas metodologias mais utilizadas são as tradicionais e as metodologias ágeis, cada uma com seus prós e contras,e em um projeto de software, a escolha da metodologia leva em conta vários fatores importantes como o tamanho do projeto e da equipe.</p>
+<p>Sabendo que o mesmo será desenvolvido em conjunto pelos alunos de duas disciplinas distintas do curso de Engenharia de Software, o projeto é dividido em duas partes, combinando as duas metodologias de desenvolvimento citadas acima e utilizando o melhor de cada uma.</p>
+<h2 id="12-rup">1.2 RUP</h2>
+<p>O RUP (Rational Unified Process) é uma metodologia para desenvolvimento de software desenvolvido pela Rational e mantido atualmente pela IBM, fortemente ligada à orientação a objetos e baseada na UML (Unified Modeling Language). Suas principais características são:
+<em> Direcionado por casos de uso
+</em> Centrado na arquitetura
+* Iterativo e Incremental  </p>
+<p>O RUP ao longo de um desenvolvimento de software possui quatro fases:
+<em> Iniciação ou Concepção:
+</em> Elaboração:
+<em> Construção:
+</em> Transição</p>
+<p>No início do projeto será utilizado o RUP como metodologia de desenvolvimento passando pelas fases de concepção, e elaboração, tendo uma pequena versão do software implementada com objetivo de validar a proposta arquitetural da equipe. Para a gerência do projeto será utilizado o guia de gerência de projetos PMBOK que tem como objetivo instruir a equipe de gerenciamento oferecendo possibilidades de conhecimento, habilidades, ferramentas e técnicas que tendem a aumentar as chances de sucesso do projeto.</p>
+<h2 id="13-agil">1.3 Ágil</h2>
+<p>Os métodos ágeis surgiram para sanar problemas existentes nas metodologias tradicionais.Em meados de 2001 vários especialistas em processos de desenvolvimento de software se reuniram nos EUA, para tentar melhorar o desempenho de seus processos.</p>
+<p>Assim surgiu o manifesto ágil, que manifesta valorizar:</p>
+<p><strong>Indivíduos e interação</strong> mais que processos e ferramentas;<br />
+<strong>Software em funcionamento</strong> mais que documentação abrangente;<br />
+<strong>Colaboração com o cliente</strong> mais que negociação de contratos;<br />
+<strong>Responder a mudanças</strong> mais que seguir um plano.  </p>
+<p>As metodologias ágeis utilizam-se de <em>Users Stories</em> ao invés de casos de uso. As duas metodologias ágeis serão abordadas no projeto são: O Scrum e o XP.</p>
+<p>Scrum é uma metodologia ágil de desenvolvimento de software. A principal características do mesmo é a divisão do projeto em ciclos chamados de <em>Sprints</em>, que são curtas, ao invés de Iterações, que são bem mais longas. A <em>Sprint</em> representa uma box no qual um conjunto de atividades devem ser executadas.</p>
+<h3 id="131-extreme-programming-xp">1.3.1 Extreme Programming – XP</h3>
+<p>A metodologia <em>Extreme Programming</em> (XP) é uma metodologia ágil focada no desenvolvimento rápido do projeto e visa garantir a satisfação do cliente, tendo como principais valores: Comunicação pessoal com o cliente, simplicidade, feedback e coragem. Sua principal característica é a programação em pares onde dois programadores juntam-se para implementar as <em>users stories</em>.</p>
+<p>Na segunda parte do projeto serão utilizadas as duas metodologias ágeis de forma conjunta, onde serão utilizadas todas as práticas do Scrum e a algumas do XP.</p>
+<h1 id="2-linha-de-base-do-escopo">2. Linha de Base do Escopo</h1>
+<p>A linha de base do Escopo do projeto <strong>SIGS</strong> está devidamente documentada Plano de Gerenciamento de Escopo, e a listagem de todas as tarefas organizadas de forma hierárquica encontram-se na estrutura analítica do projeto (EAP).</p>
+<h1 id="3-linha-de-base-do-cronograma">3. Linha de Base do Cronograma</h1>
+<p>O cronograma deste projeto segue o cronograma do semestre acadêmico da Universidade de Brasília (UnB), já que o projeto segue a disciplina "
+<em>Gestão de Portfólios e Projetos de Software</em> e <em>Métodos de Desenvolvimento de Software</em>, tendo seu início na data de 14/03/2017 e seu fim na data de 30/06/2017. Contudo, na data de 21/04/2017 haverá um marco que é a primeira entrega do projeto (<em>Release 1</em>). Antes deste marco, a projeto seguirá a metodologia de desenvolvimento <em>RUP</em>(<em>Rational Unified Process</em>). Após este marco a metodologia mudará para o Scrum juntamente do XP. Com isso o projeto terá dois cronogramas cada um de acordo com a metodologia de trabalha corrente.</p>
+<h1 id="4-linha-de-base-dos-custos">4. Linha de Base dos Custos</h1>
+<p>Os custos do projeto englobam o custo das equipes de gestão e desenvolvimento, a consultoria dos coaches, o custo do equipamento utilizado e o aluguel do estabelecimento de trabalho. O projeto esta previsto para sua execução em 15 semanas.</p>
+<p>De acordo com o relatório de gestão da UnB de 2015, o custo, por hora, de um aluno da UnB graduando em Engenharia de Software é de R$ 15,30. Esse valor foi obtido a partir do custo por ano de um aluno de Engenharia do Campus UnB Gama (R$ 11.020,00), esse valor pode ser encontrado no <a href="http://www.dpo.unb.br/index.php?option=com_phocadownload&amp;view=category&amp;download=433:relatorio-gestao-2015&amp;id=1:relatorio-de-gestao&amp;Itemid=675">Plano de Gestão 2015</a> dividido pelo tempo médio gasto por aluno, tendo em vista o número médio de créditos por ano (48 créditos x 15 horas por crédito). O trabalho médio semanal estimado será de 12 horas por integrante da equipe. Para o coach foi estimado tendo como base o tempo semanal de uma monitoria - 2 horas semanais.</p>
+<p>O custo do computador de trabalho foi estimado em R$ 2.000,00 para cada integrante. Computador este que deve ser capaz de comportar as ferramentas de desenvolvimento que serão utilizadas. Para o local de trabalho será alugado um apartamento no Gama cujo custo está estimado em R$500,00 reais, tendo como base o aluguel do único membro que mora na região. A banda larga será estimada em R$115,90 que é o plano utilizado pelo mesmo integrante, plano esse que comporta 25 Mb/s.</p>
+<h1 id="5-planos-de-gerenciamento-do-projeto">5. Planos de Gerenciamento do Projeto</h1>
+<table>
+<thead>
+<tr>
+<th>Plano</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Escopo">Gerenciamento de Escopo</a></td>
+<td>Estabelecer como o escopo do projeto pode ser controlado e validado.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Comunica%C3%A7%C3%A3o">Gerenciamento de Comunicação</a></td>
+<td>Define como a comunicação do grupo irá ocorrer. Define ferramentas e finalidade de cada uma.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Cronograma">Gerenciamento de Cronograma</a></td>
+<td>Estabelecer um processo de gerência de tempo do projeto.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Aquisi%C3%A7%C3%B5es">Gerenciamento de Aquisições</a></td>
+<td>Estabelecer um processo de como as aquisições durante o projeto deverão ocorrer.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Custo">Gerenciamento de Custos</a></td>
+<td>Estabelecer um processo para definir como a gestão dos custos será executada.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Recursos-Humanos">Gerenciamento de Recursos Humanos</a></td>
+<td>Estabelecer um panorama da equipe que trabalhará sob o projeto.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Riscos">Gerenciamento de Riscos</a></td>
+<td>Estabelecer o procedimento que deve ser adotado para gestão, prevenção e mitigação dos riscos.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software">Gerenciamento de Configuração de Software</a></td>
+<td>Estabelece as diretrizes de como a acontecerá a gerência de configuração de software.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Qualidade">Gerenciamento de Qualidade</a></td>
+<td>Estabelecer o processo e as diretrizes necessárias para a definição de qualidade, para que possa prevalecer a qualidade de software.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Requisitos">Plano de Gerenciamento de Requisitos</a></td>
+<td>Estabelecer o processo e as diretrizes, bem como as variáveis para avaliação e validação dos requisitos de software, além de sua rastreabilidade.</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Plano-de-Projeto---PMBOK/" title="Planos PMBOK" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Planos PMBOK
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Plano-de-Gerenciamento-de-Escopo/" title="Gerenciamento de Escopo" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Gerenciamento de Escopo
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

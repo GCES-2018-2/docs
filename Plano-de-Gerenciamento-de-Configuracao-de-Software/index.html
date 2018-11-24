@@ -1,0 +1,1458 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Gerenciamento de Configuração de Software - SIGS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../#historico-de-revisao" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="SIGS" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                SIGS
+              </span>
+              <span class="md-header-nav__topic">
+                Gerenciamento de Configuração de Software
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="SIGS" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    SIGS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Stylesheet
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Stylesheet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stylesheet/ruby/" title="Ruby" class="md-nav__link">
+      Ruby
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stylesheet/css/" title="Css" class="md-nav__link">
+      Css
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../contributors/" title="Contributors" class="md-nav__link">
+      Contributors
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Planejamento-da-Release/" title="Planejamento da Release" class="md-nav__link">
+      Planejamento da Release
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Gerenciamento do Projeto
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Gerenciamento do Projeto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Backlog-do-Produto" title="Backlog do Produto" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Planejamento-da-Release#3-roadmap.md" title="Roadmap" class="md-nav__link">
+      Roadmap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Glossario/" title="Glossário" class="md-nav__link">
+      Glossário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Termo-de-Abertura-do-Projeto/" title="Termo de Abertura do Projeto" class="md-nav__link">
+      Termo de Abertura do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Projeto---PMBOK/" title="Planos PMBOK" class="md-nav__link">
+      Planos PMBOK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Projeto/" title="Gerenciamento de Projeto" class="md-nav__link">
+      Gerenciamento de Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Escopo/" title="Gerenciamento de Escopo" class="md-nav__link">
+      Gerenciamento de Escopo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../estrutura-analitica-do-projeto/" title="Estrutura Analitica Do Projeto" class="md-nav__link">
+      Estrutura Analitica Do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Cronograma/" title="Gerenciamento de Cronograma" class="md-nav__link">
+      Gerenciamento de Cronograma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Riscos/" title="Gerenciamento de Riscos" class="md-nav__link">
+      Gerenciamento de Riscos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Aquisicoes/" title="Gerenciamento de Aquisições" class="md-nav__link">
+      Gerenciamento de Aquisições
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Comunicacao/" title="Gerenciamento de Comunicação" class="md-nav__link">
+      Gerenciamento de Comunicação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Gerenciamento de Configuração de Software
+      </label>
+    
+    <a href="./" title="Gerenciamento de Configuração de Software" class="md-nav__link md-nav__link--active">
+      Gerenciamento de Configuração de Software
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" title="Histórico de Revisão" class="md-nav__link">
+    Histórico de Revisão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" title="1 Introdução" class="md-nav__link">
+    1 Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-resultados-esperados" title="1.1 Resultados esperados" class="md-nav__link">
+    1.1 Resultados esperados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-definicoes-acronimos-e-abreviacoes" title="1.4 Definições, Acrônimos e Abreviações" class="md-nav__link">
+    1.4 Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-organizacao" title="2 Organização" class="md-nav__link">
+    2 Organização
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-identificacao-dos-documentos" title="2.1 Identificação dos documentos" class="md-nav__link">
+    2.1 Identificação dos documentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-localizacao-dos-artefatos" title="2.2 Localização dos Artefatos" class="md-nav__link">
+    2.2 Localização dos Artefatos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-versao-dos-artefatos" title="2.3 Versão dos Artefatos" class="md-nav__link">
+    2.3 Versão dos Artefatos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-baseline-do-projeto" title="2.4 Baseline do Projeto" class="md-nav__link">
+    2.4 Baseline do Projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-branches" title="2.5 Branches" class="md-nav__link">
+    2.5 Branches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-controle-de-mudanca" title="3. Controle de Mudança" class="md-nav__link">
+    3. Controle de Mudança
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-milestones" title="3.1 Milestones" class="md-nav__link">
+    3.1 Milestones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-issues" title="3.2 Issues" class="md-nav__link">
+    3.2 Issues
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-commits" title="4. Commits" class="md-nav__link">
+    4. Commits
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-comentario-do-commit" title="4.1 Comentário do commit" class="md-nav__link">
+    4.1 Comentário do commit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-politica-de-commits" title="4.2 Política de Commits" class="md-nav__link">
+    4.2 Política de Commits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-solicitacao-de-mudancas" title="4.3 Solicitação de Mudanças" class="md-nav__link">
+    4.3 Solicitação de Mudanças
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ambiente" title="5. Ambiente" class="md-nav__link">
+    5. Ambiente
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-vagrant" title="5.1 Vagrant" class="md-nav__link">
+    5.1 Vagrant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-puppet" title="5.2 Puppet" class="md-nav__link">
+    5.2 Puppet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-ferramentas" title="6. Ferramentas" class="md-nav__link">
+    6. Ferramentas
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-travisci" title="6.1 TravisCI" class="md-nav__link">
+    6.1 TravisCI
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#611-motivacao" title="6.1.1 Motivação" class="md-nav__link">
+    6.1.1 Motivação
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acesse-travis-ci-para-acompanhar-o-status-do-build" title="Acesse Travis-CI para acompanhar o status do build." class="md-nav__link">
+    Acesse Travis-CI para acompanhar o status do build.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-deployment" title="7. Deployment" class="md-nav__link">
+    7. Deployment
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Qualidade/" title="Gerenciamento de Qualidade" class="md-nav__link">
+      Gerenciamento de Qualidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-GQM/" title="Plano GQM" class="md-nav__link">
+      Plano GQM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Partes-Interessadas/" title="Gerenciamento das Partes Interessadas" class="md-nav__link">
+      Gerenciamento das Partes Interessadas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Requisitos/" title="Gerenciamento de Requisitos" class="md-nav__link">
+      Gerenciamento de Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../controle-das-mudancas/" title="Controle das Mudanças" class="md-nav__link">
+      Controle das Mudanças
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Execucao-do-Plano-de-Qualidade/" title="Coleta Métricas" class="md-nav__link">
+      Coleta Métricas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Desenvolvimento do Software
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Desenvolvimento do Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../documento-de-visao/" title="Documento de Visão" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Documento-de-Arquitetura/" title="Documento de Arquitetura" class="md-nav__link">
+      Documento de Arquitetura
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Diagrama-de-Casos-de-Uso/" title="Diagrama de Casos de uso" class="md-nav__link">
+      Diagrama de Casos de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Modelo-de-Domínio/" title="Modelo de Domínio" class="md-nav__link">
+      Modelo de Domínio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Diagrama-de-Classe/" title="Diagrama de Classes" class="md-nav__link">
+      Diagrama de Classes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-dos-casos-de-uso/" title="Especificação dos Casos de Uso" class="md-nav__link">
+      Especificação dos Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-dos-casos-de-teste/" title="Especificação dos Casos de Teste" class="md-nav__link">
+      Especificação dos Casos de Teste
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-suplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Protótipo-de-Alta-Fidelidade/" title="Protótipo de Alta Fidelidade" class="md-nav__link">
+      Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Relatório-de-Casos-de-Teste/" title="Relatório de Casos de Teste" class="md-nav__link">
+      Relatório de Casos de Teste
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" title="Histórico de Revisão" class="md-nav__link">
+    Histórico de Revisão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" title="1 Introdução" class="md-nav__link">
+    1 Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-resultados-esperados" title="1.1 Resultados esperados" class="md-nav__link">
+    1.1 Resultados esperados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-definicoes-acronimos-e-abreviacoes" title="1.4 Definições, Acrônimos e Abreviações" class="md-nav__link">
+    1.4 Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-organizacao" title="2 Organização" class="md-nav__link">
+    2 Organização
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-identificacao-dos-documentos" title="2.1 Identificação dos documentos" class="md-nav__link">
+    2.1 Identificação dos documentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-localizacao-dos-artefatos" title="2.2 Localização dos Artefatos" class="md-nav__link">
+    2.2 Localização dos Artefatos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-versao-dos-artefatos" title="2.3 Versão dos Artefatos" class="md-nav__link">
+    2.3 Versão dos Artefatos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-baseline-do-projeto" title="2.4 Baseline do Projeto" class="md-nav__link">
+    2.4 Baseline do Projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-branches" title="2.5 Branches" class="md-nav__link">
+    2.5 Branches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-controle-de-mudanca" title="3. Controle de Mudança" class="md-nav__link">
+    3. Controle de Mudança
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-milestones" title="3.1 Milestones" class="md-nav__link">
+    3.1 Milestones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-issues" title="3.2 Issues" class="md-nav__link">
+    3.2 Issues
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-commits" title="4. Commits" class="md-nav__link">
+    4. Commits
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-comentario-do-commit" title="4.1 Comentário do commit" class="md-nav__link">
+    4.1 Comentário do commit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-politica-de-commits" title="4.2 Política de Commits" class="md-nav__link">
+    4.2 Política de Commits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-solicitacao-de-mudancas" title="4.3 Solicitação de Mudanças" class="md-nav__link">
+    4.3 Solicitação de Mudanças
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ambiente" title="5. Ambiente" class="md-nav__link">
+    5. Ambiente
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-vagrant" title="5.1 Vagrant" class="md-nav__link">
+    5.1 Vagrant
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-puppet" title="5.2 Puppet" class="md-nav__link">
+    5.2 Puppet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-ferramentas" title="6. Ferramentas" class="md-nav__link">
+    6. Ferramentas
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-travisci" title="6.1 TravisCI" class="md-nav__link">
+    6.1 TravisCI
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#611-motivacao" title="6.1.1 Motivação" class="md-nav__link">
+    6.1.1 Motivação
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acesse-travis-ci-para-acompanhar-o-status-do-build" title="Acesse Travis-CI para acompanhar o status do build." class="md-nav__link">
+    Acesse Travis-CI para acompanhar o status do build.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-deployment" title="7. Deployment" class="md-nav__link">
+    7. Deployment
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Gerenciamento de Configuração de Software</h1>
+                
+                <h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Responsável</th>
+<th>Versão</th>
+<th>Mudança realizada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>16/03/17</strong></td>
+<td>Vinícius Carvalho</td>
+<td>0.1</td>
+<td>Criação do Documento de Configuração de Software</td>
+</tr>
+<tr>
+<td><strong>18/03/17</strong></td>
+<td>Vinícius Carvalho</td>
+<td>0.2</td>
+<td>Inserção dos subtópicos "Visão Geral","Finalidade" e "Escopo"</td>
+</tr>
+<tr>
+<td><strong>18/03/17</strong></td>
+<td>Vinícius Carvalho</td>
+<td>0.3</td>
+<td>Inserção do tópico "Ambiente"</td>
+</tr>
+<tr>
+<td><strong>25/03/17</strong></td>
+<td>Lucas Andrade</td>
+<td>1.0</td>
+<td>Finalização do Plano de GCS</td>
+</tr>
+<tr>
+<td><strong>09/04/17</strong></td>
+<td>Vinicius Pinheiro</td>
+<td>1.1</td>
+<td>Revisão geral</td>
+</tr>
+<tr>
+<td><strong>27/04/17</strong></td>
+<td>Vinícius Carvalho e Rodrigo Dadamos</td>
+<td>1.2</td>
+<td>Inserção de como realizar commit com mais de um colaborador</td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-introducao">1 Introdução</h2>
+<p>O Plano de Gerência de Configuração do SIGS (Sistema Inteligente de Gestão de Salas) apresenta todas as tarefas do Gerenciamento de configuração e mudanças no projeto, para garantir a sua integridade e manter o domínio das mudanças ocorridas durante o desenvolvimento. Neste documento detalha-se toda a infraestrutura utilizada nesse projeto. São definidos itens como: uma padronização para os documentos, uma ferramenta de controle da instalação da aplicação, preparo do ambiente de desenvolvimento de forma otimizada, integração ferramenta de controle de testes e por fim relatar os resultados da implantação da gerência de configuração de software. Para isso, devem ser seguidas diretrizes apresentadas em tópicos pelo plano de gerência.</p>
+<h3 id="11-resultados-esperados">1.1 Resultados esperados</h3>
+<p>Com a implantação deste plano espera-se diminuir as ocorrências de problemas na configuração da aplicação em outros ambientes, além de garantir maior qualidade no desenvolvimento de testes da aplicação, assegurando que as entregas de software aceitas estejam no nível aceitável definido pela equipe de gerência.</p>
+<h3 id="14-definicoes-acronimos-e-abreviacoes">1.4 Definições, Acrônimos e Abreviações</h3>
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Baseline</em></td>
+<td>Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.</td>
+</tr>
+<tr>
+<td>GCS</td>
+<td>Gerência de Configuração de <em>Software</em></td>
+</tr>
+<tr>
+<td>CR</td>
+<td>Solicitação de Mudança (<em>Change Request</em>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-organizacao">2 Organização</h2>
+<h3 id="21-identificacao-dos-documentos">2.1 Identificação dos documentos</h3>
+<p>Todos os artefatos produzidos devem manter o nome seguindo o título do artefato sem abreviação.
+Ex:<code>Plano de Gerência de Configuração</code>.
+Os únicos artefatos que podem ter abreviação são os <code>Casos de Uso</code>. Neste caso, o nome do artefato deverá ser: <code>UC&lt;Número&gt; - &lt;Nome do caso de uso&gt;</code>.</p>
+<h3 id="22-localizacao-dos-artefatos">2.2 Localização dos Artefatos</h3>
+<p>Todos os artefatos devem estar localizados nesta wiki e dentro de sua categoria. As categorias são:
+<em> 1 - Gerenciamento de Projeto
+</em> 2 - Desenvolvimento de Software
+Dentro dos respectivos períodos para entrega de uma versão estável e executável do software, divididas em <em>Release</em> 1 e <em>Release</em> 2.</p>
+<h3 id="23-versao-dos-artefatos">2.3 Versão dos Artefatos</h3>
+<p>O versionamento dos artefatos será feito por tabela de Histórico de Versão no próprio documento. Os artefatos podem ser desenvolvidos na ferramenta Google Drive, ou diretamente na wiki deste GitHub.</p>
+<h3 id="24-baseline-do-projeto">2.4 <em>Baseline</em> do Projeto</h3>
+<p>A baseline será gerada a cada fim de iteração do projeto, tendo assim um incremento no número da versão do sistema <code>1.0</code>, no caso de atualizações e correções de erros em versões passadas, deve-se utilizar o código da versão anterior sendo que o dígito após o "ponto" deve ser acrescido um <code>1.1</code>.</p>
+<h3 id="25-branches">2.5 <em>Branches</em></h3>
+<p>Essa seção determina as políticas de <em>branches</em> utilizada no processo.
+<em> Haverão duas <em>branches</em> principais, a <strong>master</strong> e a <strong>development</strong>;
+</em> A master manterá a versão entregável do projeto;
+<em> A <em>development</em> será utilizada para a equipe de gestão avaliar os <em>commits</em> e coletar as métricas;
+</em> O incremento à master, ocorrerá através de <em>pull request</em> advindo da <em>branch development</em> e será de responsabilidade exclusiva da equipe de gestão;
+<em> O incremento à <em>development</em> ocorrerá através de <em>pull request</em> advindo das <em>branches</em> de desenvolvimento, onde a aceitação ou recusa do <em>pull request</em> será de responsabilidade da equipe de gestão;
+</em> Só poderão ser criadas <em>branches</em> de desenvolvimento apenas se forem relacionadas a casos de usos à serem implementados ou para mudanças no sistema;
+* O nome das <em>branches</em> de desenvolvimento devem seguir o modelo <code>uc&lt;número do caso de uso em dois dígitos&gt;_&lt;nome do caso de uso&gt;</code> ou <code>cr&lt;número da _milestone_&gt;_&lt;número da issue&gt;_&lt;nome da _issue_&gt;</code>.
+Obs.: Se o nome do caso de uso/mudanças no sistema conter espaços, estes devem ser substituídos por <code>underline</code> e todas as letras devem ser minúsculas.</p>
+<h2 id="3-controle-de-mudanca">3. Controle de Mudança</h2>
+<h3 id="31-milestones">3.1 Milestones</h3>
+<p>As solicitações de mudanças devem ser criadas através de <em>issues</em> disponibilizadas neste repositório. Deve ser criada uma <em>milestone</em> com o título <code>&lt;CRXX&gt;</code>, a descrição deve conter a informação de quais casos de uso essa <em>milestone</em> irá afetar e deve haver uma data limite para conclusão.</p>
+<h3 id="32-issues">3.2 Issues</h3>
+<p>Após a criação da <em>milestone</em>, deve ser criado uma <em>issue</em> para cada solicitação de alteração. Cada <em>issue</em> deve ter um título simples que dite a mudança. Na descrição deve haver:
+<em> Data da Solicitação;
+</em> Data da Aprovação;
+<em> Quem aprovou a alteração;
+</em> Especificação da alteração.</p>
+<p>A <em>issue</em> deve ser ligada a sua <em>milestone</em>. O uso da <em>milestone</em> é para agrupar algumas solicitações em um pacote de alterações com prazo de entrega.</p>
+<h2 id="4-commits">4. Commits</h2>
+<h3 id="41-comentario-do-commit">4.1 Comentário do <em>commit</em></h3>
+<p>Os nomes dos commits devem ser relevantes ao conteúdo inserido ou retirado do repositório. Devem ser inscritos em língua Inglesa e conteúdo significativo, suficiente para identificação do que e onde houve alteração de código.</p>
+<blockquote>
+<p>Exemplo: <code>git commit -m "Added first list of mailing lists in manage subscriptions"</code></p>
+</blockquote>
+<h3 id="42-politica-de-commits">4.2 Política de Commits</h3>
+<p>Quando houver pareamento em um <em>commit</em> deve-se usar:</p>
+<blockquote>
+<p>Exemplo: <code>git commit --author user_name</code></p>
+</blockquote>
+<p>Em que o <em>user_name</em> é o nome do usuário com o qual está pareando.</p>
+<blockquote>
+<p>Exemplo: <code>git commit --author vinisilvacar</code></p>
+</blockquote>
+<p>O commit deverá estar associado diretamente a um membro da equipe. No caso de pareamento, o commit deve possuir a assinatura de ambos. O <em>commit</em> deverá ter uma descrição para indicar o que foi solucionado.</p>
+<p>Outra forma de editar um <em>commit</em> seria o uso do comando:</p>
+<blockquote>
+<p>Exemplo: <code>git commit -s</code></p>
+</blockquote>
+<p>Este comando abrirá o editor de texto e deverá seguir o seguinte padrão:
+O título para o commit, o nome da tarefa em desenvolvimento, uma breve descrição para o que foi feito naquele commit e o <code>Signed-off-by: "Nome do Usuario" example@email.com</code> mesmo se o commit foi dado apenas por uma pessoa. Ao fazer pareamento ou dojo deve haver o Signed-off-by com todos os contribuidores.</p>
+<p><img alt="Editor de Texto com comando -s" src="https://raw.githubusercontent.com/wiki/fga-gpp-mds/2017.1-SIGS/images/comandoGitCommitS.png" /></p>
+<h3 id="43-solicitacao-de-mudancas">4.3 Solicitação de Mudanças</h3>
+<p>Deve seguir o tópico 4.1 e no conteúdo do <em>commit</em> e deve haver o código da <em>issue</em> gerado pelo Github.</p>
+<blockquote>
+<p>Exemplo: <code>git commit -m "issue #X Added first list of mailing lists in manage subscriptions"</code></p>
+</blockquote>
+<h2 id="5-ambiente">5. Ambiente</h2>
+<h3 id="51-vagrant">5.1 Vagrant</h3>
+<p>O Vagrant é uma ferramenta para a construção de ambientes de desenvolvimento completo, permite a criação rápida de ambientes virtuais auxiliando a criação da infraestrutura para a realização de testes, desenvolvimento ou provisionamento de ambientes utilizando uma das soluções de virtualização mais comuns, o Virtualbox, no caso desse trabalho.</p>
+<p>Acesse o <a href="https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Comandos-de-Instala%C3%A7%C3%A3o-do-Ambiente">Tutorial de Instalação do ambiente</a>.</p>
+<h3 id="52-puppet">5.2 Puppet</h3>
+<p>É uma ferramenta livre que usa uma linguagem declarativa para configurar sistemas operacionais. Ele automatiza o processo de entrega de software, permitindo o provisionamento de máquinas físicas ou virtuais, a orquestração, a emissão de relatórios, ou ainda a distribuição de códigos em fase inicial de desenvolvimento, testes, lançamentos ou atualizações.</p>
+<p>A automatização da instalação de pacotes foi realizada através do provisionador Puppet, os comandos deste provisionador são escritos em arquivos chamados ''manifests'', com uma linguagem baseada no Ruby. O ''manifest'' utilizado no projeto está exemplificado a seguir, nele é executado um ''update'' do sistema e são instaladas as seguintes dependências: ...</p>
+<p>O puppet na declaração de suas classes tem alguns comandos que podem ser utilizados, os usados aqui foram o exec{}(executa shell code), o package{}(gerencia pacotes), file{}(gerencia arquivos) e service{}(gerencia serviços)</p>
+<h2 id="6-ferramentas">6. Ferramentas</h2>
+<p>A tabela abaixo descreve as ferramentas que serão utilizadas no desenvolvimento do projeto SIGS.</p>
+<table>
+<thead>
+<tr>
+<th>Ferramenta</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Travis CI</td>
+<td>Integração Contínua</td>
+</tr>
+<tr>
+<td>Git</td>
+<td>Controle de Versão</td>
+</tr>
+<tr>
+<td>Github</td>
+<td>Serviço Web Hosting Compartilhado</td>
+</tr>
+<tr>
+<td>Heroku</td>
+<td>Deploy contínuo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="61-travisci">6.1 TravisCI</h3>
+<p>O Travis CI proporciona um ambiente de build padrão e um conjunto padrão de etapas para cada linguagem de programação. É possível personalizar qualquer passo neste processo através do arquivo ''.travis.yml''. O Travis CI usa o arquivo .travis.yml na raiz do repositório para tomar conhecimento sobre o projeto e como  a build deve ser executada. O travis.yml pode ser escrito de forma minimalista ou detalhado. Alguns exemplos de que tipo de informação o arquivo .travis.yml pode ter:
+<em> Que linguagem de programação o projeto usa;
+</em> Quais comandos ou scripts devem ser executados antes de cada compilação (por exemplo, para instalar ou clonar as dependências do projeto);
+* Qual comando é usado para executar o conjunto de testes.</p>
+<h4 id="611-motivacao">6.1.1 Motivação</h4>
+<p>As principais motivações para a escolha do Travis CI foram:
+<em> Ele é gratuito para repositórios públicos;
+</em> Ser um serviço de Integração Contínua na nuvem que pode ser conectado a repositórios no GitHub;
+<em> Notifica o usuário (por e-mail) sobre resultados da build;
+</em> Vasta documentação;
+* Rápida curva de aprendizado.</p>
+<h5 id="acesse-travis-ci-para-acompanhar-o-status-do-build">Acesse <a href="https://travis-ci.org/">Travis-CI</a> para acompanhar o status do build.</h5>
+<h2 id="7-deployment">7. Deployment</h2>
+<p>Ao longo do desenvolvimento a aplicação ficará hospedada no <a href="https://www.heroku.com/">heroku</a>. Após a conclusão do desenvolvimento do projeto e a  entrega final para o cliente o sistema deverá ser hospedado em algum servidor da UnB</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Plano-de-Gerenciamento-de-Comunicacao/" title="Gerenciamento de Comunicação" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Gerenciamento de Comunicação
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Plano-de-Gerenciamento-de-Qualidade/" title="Gerenciamento de Qualidade" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Gerenciamento de Qualidade
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

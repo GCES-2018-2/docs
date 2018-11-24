@@ -1,0 +1,1331 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Gerenciamento de Requisitos - SIGS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../#historico-de-revisoes" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="SIGS" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                SIGS
+              </span>
+              <span class="md-header-nav__topic">
+                Gerenciamento de Requisitos
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="SIGS" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    SIGS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Stylesheet
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Stylesheet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stylesheet/ruby/" title="Ruby" class="md-nav__link">
+      Ruby
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stylesheet/css/" title="Css" class="md-nav__link">
+      Css
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../contributors/" title="Contributors" class="md-nav__link">
+      Contributors
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Planejamento-da-Release/" title="Planejamento da Release" class="md-nav__link">
+      Planejamento da Release
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Gerenciamento do Projeto
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Gerenciamento do Projeto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Backlog-do-Produto" title="Backlog do Produto" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Planejamento-da-Release#3-roadmap.md" title="Roadmap" class="md-nav__link">
+      Roadmap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Glossario/" title="Glossário" class="md-nav__link">
+      Glossário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Termo-de-Abertura-do-Projeto/" title="Termo de Abertura do Projeto" class="md-nav__link">
+      Termo de Abertura do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Projeto---PMBOK/" title="Planos PMBOK" class="md-nav__link">
+      Planos PMBOK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Projeto/" title="Gerenciamento de Projeto" class="md-nav__link">
+      Gerenciamento de Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Escopo/" title="Gerenciamento de Escopo" class="md-nav__link">
+      Gerenciamento de Escopo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../estrutura-analitica-do-projeto/" title="Estrutura Analitica Do Projeto" class="md-nav__link">
+      Estrutura Analitica Do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Cronograma/" title="Gerenciamento de Cronograma" class="md-nav__link">
+      Gerenciamento de Cronograma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Riscos/" title="Gerenciamento de Riscos" class="md-nav__link">
+      Gerenciamento de Riscos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Aquisicoes/" title="Gerenciamento de Aquisições" class="md-nav__link">
+      Gerenciamento de Aquisições
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Comunicacao/" title="Gerenciamento de Comunicação" class="md-nav__link">
+      Gerenciamento de Comunicação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Configuracao-de-Software/" title="Gerenciamento de Configuração de Software" class="md-nav__link">
+      Gerenciamento de Configuração de Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Qualidade/" title="Gerenciamento de Qualidade" class="md-nav__link">
+      Gerenciamento de Qualidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-GQM/" title="Plano GQM" class="md-nav__link">
+      Plano GQM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Plano-de-Gerenciamento-de-Partes-Interessadas/" title="Gerenciamento das Partes Interessadas" class="md-nav__link">
+      Gerenciamento das Partes Interessadas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Gerenciamento de Requisitos
+      </label>
+    
+    <a href="./" title="Gerenciamento de Requisitos" class="md-nav__link md-nav__link--active">
+      Gerenciamento de Requisitos
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" title="Histórico de Revisões" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" title="1. Introdução" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-finalidade" title="1.1 Finalidade" class="md-nav__link">
+    1.1 Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-definicoes-acronimos-e-abreviacoes" title="1.2 Definições, Acrônimos e Abreviações" class="md-nav__link">
+    1.2 Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-processo-de-coleta-e-de-documentacao-dos-requisitos" title="2. Processo de Coleta e de Documentação dos Requisitos" class="md-nav__link">
+    2. Processo de Coleta e de Documentação dos Requisitos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-descricao-das-atividades-do-processo" title="2.1 Descrição das Atividades do Processo" class="md-nav__link">
+    2.1 Descrição das Atividades do Processo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-processo-elicitacao-de-requisitos" title="2.1.1 Processo "Elicitação de Requisitos"" class="md-nav__link">
+    2.1.1 Processo "Elicitação de Requisitos"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-subprocesso-gerenciar-mudancas" title="2.1.2 Subprocesso "Gerenciar Mudanças"" class="md-nav__link">
+    2.1.2 Subprocesso "Gerenciar Mudanças"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-gerenciamento-de-priorizacao-e-configuracao-dos-requisitos" title="3. Gerenciamento de Priorização e Configuração dos Requisitos" class="md-nav__link">
+    3. Gerenciamento de Priorização e Configuração dos Requisitos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-matriz-de-rastreabilidade" title="4. Matriz de Rastreabilidade" class="md-nav__link">
+    4. Matriz de Rastreabilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-descricao-dos-elementos-da-matriz" title="5. Descrição dos Elementos da Matriz" class="md-nav__link">
+    5. Descrição dos Elementos da Matriz
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-problemas" title="5.1 Problemas" class="md-nav__link">
+    5.1 Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-requisitos" title="5.3 Requisitos" class="md-nav__link">
+    5.3 Requisitos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-casos-de-uso" title="5.4 Casos de Uso" class="md-nav__link">
+    5.4 Casos de Uso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../controle-das-mudancas/" title="Controle das Mudanças" class="md-nav__link">
+      Controle das Mudanças
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Execucao-do-Plano-de-Qualidade/" title="Coleta Métricas" class="md-nav__link">
+      Coleta Métricas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Desenvolvimento do Software
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Desenvolvimento do Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../documento-de-visao/" title="Documento de Visão" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Documento-de-Arquitetura/" title="Documento de Arquitetura" class="md-nav__link">
+      Documento de Arquitetura
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Diagrama-de-Casos-de-Uso/" title="Diagrama de Casos de uso" class="md-nav__link">
+      Diagrama de Casos de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Modelo-de-Domínio/" title="Modelo de Domínio" class="md-nav__link">
+      Modelo de Domínio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Diagrama-de-Classe/" title="Diagrama de Classes" class="md-nav__link">
+      Diagrama de Classes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-dos-casos-de-uso/" title="Especificação dos Casos de Uso" class="md-nav__link">
+      Especificação dos Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-dos-casos-de-teste/" title="Especificação dos Casos de Teste" class="md-nav__link">
+      Especificação dos Casos de Teste
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao-suplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Protótipo-de-Alta-Fidelidade/" title="Protótipo de Alta Fidelidade" class="md-nav__link">
+      Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Relatório-de-Casos-de-Teste/" title="Relatório de Casos de Teste" class="md-nav__link">
+      Relatório de Casos de Teste
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" title="Histórico de Revisões" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" title="1. Introdução" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-finalidade" title="1.1 Finalidade" class="md-nav__link">
+    1.1 Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-definicoes-acronimos-e-abreviacoes" title="1.2 Definições, Acrônimos e Abreviações" class="md-nav__link">
+    1.2 Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-processo-de-coleta-e-de-documentacao-dos-requisitos" title="2. Processo de Coleta e de Documentação dos Requisitos" class="md-nav__link">
+    2. Processo de Coleta e de Documentação dos Requisitos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-descricao-das-atividades-do-processo" title="2.1 Descrição das Atividades do Processo" class="md-nav__link">
+    2.1 Descrição das Atividades do Processo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-processo-elicitacao-de-requisitos" title="2.1.1 Processo "Elicitação de Requisitos"" class="md-nav__link">
+    2.1.1 Processo "Elicitação de Requisitos"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-subprocesso-gerenciar-mudancas" title="2.1.2 Subprocesso "Gerenciar Mudanças"" class="md-nav__link">
+    2.1.2 Subprocesso "Gerenciar Mudanças"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-gerenciamento-de-priorizacao-e-configuracao-dos-requisitos" title="3. Gerenciamento de Priorização e Configuração dos Requisitos" class="md-nav__link">
+    3. Gerenciamento de Priorização e Configuração dos Requisitos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-matriz-de-rastreabilidade" title="4. Matriz de Rastreabilidade" class="md-nav__link">
+    4. Matriz de Rastreabilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-descricao-dos-elementos-da-matriz" title="5. Descrição dos Elementos da Matriz" class="md-nav__link">
+    5. Descrição dos Elementos da Matriz
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-problemas" title="5.1 Problemas" class="md-nav__link">
+    5.1 Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-requisitos" title="5.3 Requisitos" class="md-nav__link">
+    5.3 Requisitos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-casos-de-uso" title="5.4 Casos de Uso" class="md-nav__link">
+    5.4 Casos de Uso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Gerenciamento de Requisitos</h1>
+                
+                <h3 id="historico-de-revisoes">Histórico de Revisões</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>21/03/2017</strong></td>
+<td align="center">0.1</td>
+<td align="center">Inserção do tópico Introdução</td>
+<td align="center">Vinícius Carvalho</td>
+</tr>
+<tr>
+<td align="center"><strong>13/04/2017</strong></td>
+<td align="center">0.2</td>
+<td align="center">Adição do processo e do gerenciamento dos requisitos</td>
+<td align="center">João Paulo Busche e Caio Felipe</td>
+</tr>
+<tr>
+<td align="center"><strong>18/04/2017</strong></td>
+<td align="center">1.0</td>
+<td align="center">Finalização do Plano de Gerenciamento de Requisitos</td>
+<td align="center">João Paulo Busche</td>
+</tr>
+<tr>
+<td align="center"><strong>19/04/2017</strong></td>
+<td align="center">1.1</td>
+<td align="center">Revisão do Plano de Gerenciamento de Requisitos</td>
+<td align="center">João Paulo Busche</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a href="#1-introdução">1. Introdução</a> <br />
+<a href="#2-processo-de-coleta-e-de-documentação-dos-requisitos">2. Processo de coleta e de documentação dos requisitos</a> <br />
+<a href="#3-gerenciamento-de-priorização-e-configuração-dos-requisitos">3. Gerenciamento de priorização e configuração dos requisitos</a> <br />
+<a href="#4-matriz-de-rastreabilidade">4. Matriz de rastreabilidade</a> <br />
+<a href="#5-descrição-dos-elementos-da-matriz">5. Descrição dos Elementos da Matriz</a>    <br />
+<a href="#6-referências-bibliográficas">6. Referências bibliográficas</a>   </p>
+<hr />
+<h3 id="1-introducao">1. Introdução</h3>
+<p>Este documento descreve os requisitos e seus tipos, como também relata como será feito a coleta de informações dos requisitos do produtos usado para avaliar, relatar e controlar mudanças. Os tópicos abortados serão processo de coleta e documentação dos requisitos, gerenciamento de priorização e configuração dos requisitos e a matriz de rastreabilidade e sua descrição.</p>
+<h4 id="11-finalidade">1.1 Finalidade</h4>
+<p>Este documento tem como finalidade demonstra como será feito o plano de gerenciamento de requisitos do projeto Sistema de Inteligente de Gestão de Sala (SIGS), descrevendo como o projeto irá configurar o documento de requisitos, quais são os tipos de requisitos como também sua rastreabilidade.</p>
+<h4 id="12-definicoes-acronimos-e-abreviacoes">1.2 Definições, Acrônimos e Abreviações</h4>
+<p>SIGS - Sistema Inteligente de Gestão de Sala<br />
+UnB - Universidade de Brasília.</p>
+<h3 id="2-processo-de-coleta-e-de-documentacao-dos-requisitos">2. Processo de Coleta e de Documentação dos Requisitos</h3>
+<p>Os requisitos deverão ser coletados baseado no processo abaixo e classificados nos seguintes níveis de rastreabilidade:
+<em> <strong>Problema:</strong> São os níveis mais alto de abstração dos requisitos, geralmente descrevem qual a causa, que levou a ser requisitado uma solução de software.<br />
+</em> <strong>Necessidades:</strong> São as causas que geram os requisitos, geralmentes descrevem contextos onde visam resolver determinado problema.<br />
+<em> <strong>Requisitos Funcionais e Não-Funcionais:</strong> São os requisitos que mapeiam as funcionalidades de um sistema, baseados nas necessidades do problema.<br />
+</em> <strong>Casos de Uso:</strong> São os requisitos de níveis mais baixos de um sistema, geralmente caracterizados como as ações que um usuário terá no sistema.</p>
+<p><img alt="Processo de coleta de requisitos" src="../images/requisitos.png" title="Processo de coleta de requisitos" /></p>
+<p><img alt="Processo de gerência de mudanças" src="../images/mudancas.png" title="Processo de gerência de mudanças" /></p>
+<h4 id="21-descricao-das-atividades-do-processo">2.1 Descrição das Atividades do Processo</h4>
+<h5 id="211-processo-elicitacao-de-requisitos">2.1.1 Processo "Elicitação de Requisitos"</h5>
+<ul>
+<li>
+<p><strong>Entender o contexto:</strong> Refere-se à atividade de conhecer o contexto do cliente, área de atuação do sistema, formas de realização, etc.</p>
+</li>
+<li>
+<p><strong>Identificar problemas e necessidades:</strong> Refere-se à atividade de analisar o processo de trabalho do cliente dentro do seu contexto, identificar falhas, gargalos e pontos de melhoria, mapeando-as em grandes problemas, e quebrando-os em necessidades que precisam ser supridas para solução dos mesmos.</p>
+</li>
+<li>
+<p><strong>Validar necessidades:</strong> Refere-se à atividade de apresentar as necessidades levantadas para o cliente, afim de identificar questões que não são realmente pertinentes ao contexto desejado, ou a falta de alguma necessidade que precise ser suprida.</p>
+</li>
+<li>
+<p><strong>Definir requisitos funcionais e não-funcionais:</strong> Refere-se à atividade de quebrar as necessidades em requisitos de software, tanto em níveis funcionais quanto em níveis não-funcionais, rastreando-os às suas respectivas necessidades e problemas.</p>
+</li>
+<li>
+<p><strong>Validar requisitos:</strong> Refere-se à atividade de apresentar os requisitos levantados para o cliente, afim de identificar erros ou falta de determinados requisitos essenciais para suprir as necessidades levantadas.</p>
+</li>
+<li>
+<p><strong>Definir casos de uso:</strong> Refere-se à atividade de analisar os requisitos e quebrá-los em casos de uso, de forma a obter funcionalidades a serem implementadas pela equipe de desenvolvimento.</p>
+</li>
+<li>
+<p><strong>Validar casos de uso:</strong> Refere-se à atividade de apresentar o diagrama de casos de uso, de forma a possibilitar uma visão operacional do sistema ao cliente, permitindo que ele avalie se atingiu todos os pontos esperados.</p>
+</li>
+</ul>
+<h5 id="212-subprocesso-gerenciar-mudancas">2.1.2 Subprocesso "Gerenciar Mudanças"</h5>
+<ul>
+<li>
+<p><strong>Identificar Mudança:</strong> Refere-se à atividade de identificar mudanças a partir de determinadas necessidades do cliente que podem, por ventura, vir a ser inseridas ou retiradas do sistema.</p>
+</li>
+<li>
+<p><strong>Validar Mudança:</strong> Refere-se à atividade de apresentar a nova proposta de mudança ao cliente em todos os níveis de abstração dos requisitos, a fim de validar a nova proposta.</p>
+</li>
+<li>
+<p><strong>Implementar Mudança:</strong> Refere-se à atividade de realmente efetuar a mudança em relação a rastreabilidade dos requisitos, diagramas e referentes.</p>
+</li>
+</ul>
+<h3 id="3-gerenciamento-de-priorizacao-e-configuracao-dos-requisitos">3. Gerenciamento de Priorização e Configuração dos Requisitos</h3>
+<p>A priorização dos requisitos é efetuada a partir dos esclarecimentos prestados pelo cliente a respeito dos principais problemas encontrados, e como eles se relacionam entre si. Visto isso, a equipe é capaz de identificar quais requisitos serão priorizados em detrimento de outros.</p>
+<p>Os indicadores que manterão a navegabilidade e a rastreabilidade serão representados pelas letras P, que representa os problemas, N, que representa as necessidades do projeto, RF, que representa os requisitos funcionais do sistema e por fim UC que representa os casos de uso do software a ser implementado. Os indicadores serão incrementais, assim possibilitando a sua rastreabilidade, por exemplo o caso de uso  possui uma ligação com o requisito RF1.1.1, que possui ligação com a necessidade N1.1, que possui ligação com o problema P1.</p>
+<h3 id="4-matriz-de-rastreabilidade">4. Matriz de Rastreabilidade</h3>
+<p><img alt="Matriz de Rastreabilidade" src="https://raw.githubusercontent.com/wiki/fga-gpp-mds/2017.1-SIGS/images/Matriz-Rastreabilidade.png" /></p>
+<h3 id="5-descricao-dos-elementos-da-matriz">5. Descrição dos Elementos da Matriz</h3>
+<h4 id="51-problemas">5.1 Problemas</h4>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Nome</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P1</td>
+<td>Alocação de Salas Ineficiente</td>
+<td>Este problema representa a ausência de uma alocação de salas feita de maneira eficiente onde o processo atual gera resultados considerados problemáticos tanto para os alunos, quanto para a organização como um todo.</td>
+</tr>
+<tr>
+<td>#### 5.2 Necessidades</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Identificador</td>
+<td>Nome</td>
+<td>Descrição</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>N1.1</td>
+<td>Controle de Responsáveis pelas Alocações</td>
+<td>Esta necessidade representa a situação onde cada responsável por uma alocação em determinado departamento (coordenador do curso), deve ter sua jurisdição respeita, sendo o único com poder de alocar salas.</td>
+</tr>
+<tr>
+<td>N2.1</td>
+<td>Utilização Coerente do Espaço Alocado</td>
+<td>Esta necessidade representa a situação gerada ao selecionar-se salas de aula incoerentes com a real necessidade, isto é, com capacidade menor ou maior do que a necessária e com equipamentos (mesas, cadeiras, projetores, etc) que não atendem corretamente aquela turma.</td>
+</tr>
+<tr>
+<td>N3.1</td>
+<td>Reduzir Distâncias entre Aulas para os Alunos</td>
+<td>Esta necessidade representa um situação gerada ao alocar-se as salas de aula, onde não é considerado as distâncias das salas alocadas para um mesmo aluno, o que ocasiona um deslocamento excessivo do mesmo em um curto intervalo de tempo.</td>
+</tr>
+<tr>
+<td>N4.1</td>
+<td>Redução do Trabalho no Processo de Alocação</td>
+<td>Esta necessidade representa a situação gerada durante o processo de alocação, visto que o mesmo hoje ocorre de maneira manual ou através de ferramentas que demandam um tempo e utilização maior (planilhas, etc) para realizar as operações esperadas.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="53-requisitos">5.3 Requisitos</h4>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Nome</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF1.1.1</td>
+<td>Autenticar Usuário</td>
+<td>O Sistema deve solicitar o usuário e autenticar a sessão do mesmo, após a aprovação.</td>
+</tr>
+<tr>
+<td>RF2.1.1</td>
+<td>Controlar Cadastro</td>
+<td>O Sistema deve autorizar o Assistente Administrativo de editar as informações dos usuários e aprovar seu cadastro.</td>
+</tr>
+<tr>
+<td>RF3.2.1</td>
+<td>Controlar Sala</td>
+<td>O Sistema deve permitir o Assistente Administrativo a manter as informações das salas.</td>
+</tr>
+<tr>
+<td>RF4.2.1</td>
+<td>Controlar Turmas</td>
+<td>O sistema deve permitir que os usuários possam manter as informações das turmas.</td>
+</tr>
+<tr>
+<td>RF5.3.1</td>
+<td>Controlar Alocações</td>
+<td>O sistema deve permitir que os usuários possam gerenciar as alocações feitas, e que o Assistente Administrativo controle as de espaço comum.</td>
+</tr>
+<tr>
+<td>RF6.4.1</td>
+<td>Orientar Alocações</td>
+<td>O sistema deve permitir que os usuários possam visualizar as alocações e geram seus respectivos relatórios.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="54-casos-de-uso">5.4 Casos de Uso</h4>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Nome</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UC.1.2.1.1</td>
+<td>Gerenciar Usuário</td>
+<td>Esse caso de uso permite que todos os usuários com cadastro aprovado possam editar, remover e visualizar seus dados, com exceção do assistente administrativo que pode remover e visualizar os dados de todos os usuários.</td>
+</tr>
+<tr>
+<td>UC.2.1.1.1</td>
+<td>Manter Sessão de Usuário</td>
+<td>Esse caso de uso permite que todos os usuários com cadastro aprovado possam logar e deslogar do sistema.</td>
+</tr>
+<tr>
+<td>UC.3.1.1.1</td>
+<td>Solicitar Cadastro</td>
+<td>Esse caso de uso permite ao usuário comum preencher dados de seu cadastro e solicitar sua aprovação.</td>
+</tr>
+<tr>
+<td>UC.4.2.1.1</td>
+<td>Aprovar Cadastro de Usuário</td>
+<td>Esse caso de uso permite que o assistente administrativo possa aprovar uma solicitação de cadastro feita por um usuário comum.</td>
+</tr>
+<tr>
+<td>UC.5.3.2.1</td>
+<td>Administrar Salas</td>
+<td>Esse caso de uso permite ao assistente administrativo adicionar, remover e alterar dados de uma sala.</td>
+</tr>
+<tr>
+<td>UC.6.4.2.1</td>
+<td>Manter Turma</td>
+<td>Esse caso de uso permite ao coordenador e auxiliar do departamento cadastrar, editar, visualizar e remover uma turma.</td>
+</tr>
+<tr>
+<td>UC.7.5.3.1</td>
+<td>Manter Alocações</td>
+<td>Esse caso de uso permite que o coordenador e o auxiliar do departamento possam alocar e realocar disciplinas em salas que são ditas do departamento, que pode ser referente ao curso no caso do coordenador.E no caso do assistente administrativo alocar e realocar disciplinas em salas de espaço comum.</td>
+</tr>
+<tr>
+<td>UC.8.6.4.1</td>
+<td>Visualizar Alocação</td>
+<td>Esse caso de uso permite ao assistente administrativo, coordenador e auxiliar do departamento visualizarem as salas já alocadas à uma determinada disciplina e seus respectivos dias e horários.</td>
+</tr>
+<tr>
+<td>UC.9.5.3.1</td>
+<td>Solicitar Alocação em Espaço Comum</td>
+<td>Esse caso de uso permite ao coordenador e ao auxiliar do departamento solicitarem alocação de disciplinas, onde irão pré-aloca-las a fim de serem aprovadas pelo assistente administrativo e serem organizadas e alocadas em espaço comum.</td>
+</tr>
+<tr>
+<td>UC.10.5.3.1</td>
+<td>Gerenciar Solicitações de Espaço Comum</td>
+<td>Esse caso de uso permite ao assistente administrativo desalocar uma sala de uma disciplina, alocar disciplinas em salas vazias e alterar qualquer instância de alocação, após feita uma solicitação pelo coordenador ou auxiliar do departamento.</td>
+</tr>
+<tr>
+<td>UC.11.6.4.1</td>
+<td>Gerar Relatório</td>
+<td>Esse caso de uso permite ao assistente administrativo, coordenador e auxiliar do departamento,gerarem relatórios referentes à alocação de sala.</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Plano-de-Gerenciamento-de-Partes-Interessadas/" title="Gerenciamento das Partes Interessadas" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Gerenciamento das Partes Interessadas
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../controle-das-mudancas/" title="Controle das Mudanças" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Controle das Mudanças
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

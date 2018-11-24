@@ -1,0 +1,1225 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Ruby - SIGS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../../#sumario" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="SIGS" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                SIGS
+              </span>
+              <span class="md-header-nav__topic">
+                Ruby
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="SIGS" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    SIGS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../contribute/" title="Contribute" class="md-nav__link">
+      Contribute
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Stylesheet
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Stylesheet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Ruby
+      </label>
+    
+    <a href="./" title="Ruby" class="md-nav__link md-nav__link--active">
+      Ruby
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sumario" title="SUMÁRIO" class="md-nav__link">
+    SUMÁRIO
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consideracoes-gerais" title="Considerações gerais" class="md-nav__link">
+    Considerações gerais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-declaracao-de-classes-funcoes-e-variaveis" title="1. Declaração de classes, funções e variáveis:" class="md-nav__link">
+    1. Declaração de classes, funções e variáveis:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-declaracao-de-clases" title="1.1. Declaração de clases" class="md-nav__link">
+    1.1. Declaração de clases
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-depois-da-declacao-da-classe" title="1.2. Depois da declação da classe" class="md-nav__link">
+    1.2. Depois da declação da classe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-declaracao-de-atributos" title="1.3. Declaração de atributos:" class="md-nav__link">
+    1.3. Declaração de atributos:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-declaracao-de-variaveis-e-metodosfuncoes" title="1.4. Declaração de variáveis e métodos/funções" class="md-nav__link">
+    1.4. Declaração de variáveis e métodos/funções
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-variaveis-para-lops" title="1.5. Variáveis para lops" class="md-nav__link">
+    1.5. Variáveis para lops
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-identacao-chaves-e-colchetes" title="2. Identação chaves e colchetes" class="md-nav__link">
+    2. Identação chaves e colchetes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary_1" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-rotas" title="3. Rotas:" class="md-nav__link">
+    3. Rotas:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary_2" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-comentarios" title="4. Comentários:" class="md-nav__link">
+    4. Comentários:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary_3" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../css/" title="Css" class="md-nav__link">
+      Css
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../contributors/" title="Contributors" class="md-nav__link">
+      Contributors
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Planejamento-da-Release/" title="Planejamento da Release" class="md-nav__link">
+      Planejamento da Release
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Gerenciamento do Projeto
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Gerenciamento do Projeto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Backlog-do-Produto" title="Backlog do Produto" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Planejamento-da-Release#3-roadmap.md" title="Roadmap" class="md-nav__link">
+      Roadmap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Glossario/" title="Glossário" class="md-nav__link">
+      Glossário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Termo-de-Abertura-do-Projeto/" title="Termo de Abertura do Projeto" class="md-nav__link">
+      Termo de Abertura do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Projeto---PMBOK/" title="Planos PMBOK" class="md-nav__link">
+      Planos PMBOK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Projeto/" title="Gerenciamento de Projeto" class="md-nav__link">
+      Gerenciamento de Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Escopo/" title="Gerenciamento de Escopo" class="md-nav__link">
+      Gerenciamento de Escopo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../estrutura-analitica-do-projeto/" title="Estrutura Analitica Do Projeto" class="md-nav__link">
+      Estrutura Analitica Do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Cronograma/" title="Gerenciamento de Cronograma" class="md-nav__link">
+      Gerenciamento de Cronograma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Riscos/" title="Gerenciamento de Riscos" class="md-nav__link">
+      Gerenciamento de Riscos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Aquisicoes/" title="Gerenciamento de Aquisições" class="md-nav__link">
+      Gerenciamento de Aquisições
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Comunicacao/" title="Gerenciamento de Comunicação" class="md-nav__link">
+      Gerenciamento de Comunicação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Configuracao-de-Software/" title="Gerenciamento de Configuração de Software" class="md-nav__link">
+      Gerenciamento de Configuração de Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Qualidade/" title="Gerenciamento de Qualidade" class="md-nav__link">
+      Gerenciamento de Qualidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-GQM/" title="Plano GQM" class="md-nav__link">
+      Plano GQM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Partes-Interessadas/" title="Gerenciamento das Partes Interessadas" class="md-nav__link">
+      Gerenciamento das Partes Interessadas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Plano-de-Gerenciamento-de-Requisitos/" title="Gerenciamento de Requisitos" class="md-nav__link">
+      Gerenciamento de Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../controle-das-mudancas/" title="Controle das Mudanças" class="md-nav__link">
+      Controle das Mudanças
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Execucao-do-Plano-de-Qualidade/" title="Coleta Métricas" class="md-nav__link">
+      Coleta Métricas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Desenvolvimento do Software
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Desenvolvimento do Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../documento-de-visao/" title="Documento de Visão" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Documento-de-Arquitetura/" title="Documento de Arquitetura" class="md-nav__link">
+      Documento de Arquitetura
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Diagrama-de-Casos-de-Uso/" title="Diagrama de Casos de uso" class="md-nav__link">
+      Diagrama de Casos de uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelo-de-Domínio/" title="Modelo de Domínio" class="md-nav__link">
+      Modelo de Domínio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Diagrama-de-Classe/" title="Diagrama de Classes" class="md-nav__link">
+      Diagrama de Classes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../especificacao-dos-casos-de-uso/" title="Especificação dos Casos de Uso" class="md-nav__link">
+      Especificação dos Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../especificacao-dos-casos-de-teste/" title="Especificação dos Casos de Teste" class="md-nav__link">
+      Especificação dos Casos de Teste
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../especificacao-suplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Protótipo-de-Alta-Fidelidade/" title="Protótipo de Alta Fidelidade" class="md-nav__link">
+      Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Relatório-de-Casos-de-Teste/" title="Relatório de Casos de Teste" class="md-nav__link">
+      Relatório de Casos de Teste
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sumario" title="SUMÁRIO" class="md-nav__link">
+    SUMÁRIO
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consideracoes-gerais" title="Considerações gerais" class="md-nav__link">
+    Considerações gerais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-declaracao-de-classes-funcoes-e-variaveis" title="1. Declaração de classes, funções e variáveis:" class="md-nav__link">
+    1. Declaração de classes, funções e variáveis:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-declaracao-de-clases" title="1.1. Declaração de clases" class="md-nav__link">
+    1.1. Declaração de clases
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-depois-da-declacao-da-classe" title="1.2. Depois da declação da classe" class="md-nav__link">
+    1.2. Depois da declação da classe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-declaracao-de-atributos" title="1.3. Declaração de atributos:" class="md-nav__link">
+    1.3. Declaração de atributos:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-declaracao-de-variaveis-e-metodosfuncoes" title="1.4. Declaração de variáveis e métodos/funções" class="md-nav__link">
+    1.4. Declaração de variáveis e métodos/funções
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-variaveis-para-lops" title="1.5. Variáveis para lops" class="md-nav__link">
+    1.5. Variáveis para lops
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-identacao-chaves-e-colchetes" title="2. Identação chaves e colchetes" class="md-nav__link">
+    2. Identação chaves e colchetes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary_1" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-rotas" title="3. Rotas:" class="md-nav__link">
+    3. Rotas:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary_2" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-comentarios" title="4. Comentários:" class="md-nav__link">
+    4. Comentários:
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary_3" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Ruby</h1>
+                
+                <h2 id="sumario">SUMÁRIO</h2>
+<ol>
+<li><a href="#head1">Declaração de classes, funções e variáveis</a><br /></li>
+<li><a href="#head2">Identação chaves e colchetes</a><br /></li>
+<li><a href="#head3">Rotas</a><br /></li>
+<li><a href="#head4">Comentários</a><br /></li>
+</ol>
+<h3 id="consideracoes-gerais">Considerações gerais</h3>
+<p>Todos os nomes de variáveis, métodos, rotas, classes e funções devem ser em inglês <br>
+Comentários devem ser um português</p>
+<p><a name="head1"></a></p>
+<h2 id="1-declaracao-de-classes-funcoes-e-variaveis">1. Declaração de classes, funções e variáveis:</h2>
+<h6 id="summary"><a href="#summary1">Summary</a></h6>
+<h3 id="11-declaracao-de-clases">1.1. Declaração de clases</h3>
+<p>Classes sempre começam com letra maiúscula e em caso de uma classe com nome composto usa-se camel case <br>
+Exemplos:</p>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">CompanyDenunciation</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+<span class="k">end</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Notification</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+<span class="k">end</span>
+</pre></div>
+
+
+<h3 id="12-depois-da-declacao-da-classe">1.2. Depois da declação da classe</h3>
+<p>Depois da declação da classe e suas dependências deve-se pular uma linha para escrever os métodos.
+<br>
+Exemplos:</p>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">CommentsController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+  <span class="n">before_action</span> <span class="ss">:authenticate_user</span>
+  <span class="n">before_action</span> <span class="ss">:verify_user_permission</span><span class="p">,</span> <span class="ss">only</span><span class="p">:</span> <span class="o">[</span><span class="ss">:destroy</span><span class="p">,</span> <span class="ss">:edit</span><span class="o">]</span>
+
+  <span class="k">def</span> <span class="nf">new</span>
+     <span class="vi">@comment</span> <span class="o">=</span> <span class="no">Comment</span><span class="o">.</span><span class="n">new</span>
+  <span class="k">end</span>
+
+<span class="o">...</span>
+
+<span class="k">end</span>
+</pre></div>
+
+
+<h3 id="13-declaracao-de-atributos">1.3. Declaração de atributos:</h3>
+<p>Exemplos:</p>
+<div class="codehilite"><pre><span></span><span class="n">has_many</span> <span class="ss">:active_battles</span>
+<span class="n">has_many</span> <span class="ss">:passive_battles</span>
+<span class="n">has_many</span> <span class="ss">:won_battles</span>
+</pre></div>
+
+
+<h3 id="14-declaracao-de-variaveis-e-metodosfuncoes">1.4. Declaração de variáveis e métodos/funções</h3>
+<p>Nunca abreviar os nomes e sempre separar nomes compostos por _ (underline)
+<br>
+Exemplos:</p>
+<div class="codehilite"><pre><span></span><span class="vi">@battle_answer_notification</span>
+<span class="vi">@pending_battles</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">um_exemplo</span>
+  <span class="vi">@meu_metodo</span>
+<span class="k">end</span>
+</pre></div>
+
+
+<h3 id="15-variaveis-para-lops">1.5. Variáveis para lops</h3>
+<p>Variáveis dentro de lops devem sempre corresponder ao singular do nome do array (que deve ser composto)<br>
+Exemplos:</p>
+<div class="codehilite"><pre><span></span>  <span class="k">def</span> <span class="nf">read</span>
+
+    <span class="n">render</span> <span class="ss">:nothing</span> <span class="o">=&gt;</span> <span class="kp">true</span>
+    <span class="vi">@notifications</span> <span class="o">=</span> <span class="n">current_user</span><span class="o">.</span><span class="n">notifications</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">visualized</span><span class="p">:</span> <span class="kp">false</span><span class="p">)</span>
+    <span class="vi">@notifications</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">notification</span><span class="o">|</span>
+       <span class="n">notification</span><span class="o">.</span><span class="n">update_attribute</span><span class="p">(</span><span class="ss">:visualized</span><span class="p">,</span> <span class="kp">true</span><span class="p">)</span>
+    <span class="k">end</span>
+
+  <span class="k">end</span>
+</pre></div>
+
+
+<p><a name="head2"></a></p>
+<h2 id="2-identacao-chaves-e-colchetes">2. Identação chaves e colchetes</h2>
+<h6 id="summary_1"><a href="#summary2">Summary</a></h6>
+<p>Identação sempre com 2 espaços.<br>
+Parênteses e colchetes sempre na mesma linha.<br>
+Chaves sempre separadas do conteúdo por um espaço.
+<br>Exemplos:</p>
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="nf">update</span>
+  <span class="vi">@vote</span> <span class="o">=</span> <span class="no">Vote</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">vote_params</span><span class="p">)</span>
+  <span class="vi">@vote</span><span class="o">.</span><span class="n">question_id</span> <span class="o">=</span> <span class="n">params</span><span class="o">[</span><span class="ss">:question_id</span><span class="o">]</span>
+  <span class="vi">@vote</span><span class="o">.</span><span class="n">option_id</span> <span class="o">=</span> <span class="n">params</span><span class="o">[</span><span class="ss">:vote</span><span class="o">][</span><span class="ss">:option_id</span><span class="o">]</span>
+  <span class="vi">@votes</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">vote</span><span class="o">|</span>
+    <span class="n">vote</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="kp">nil</span>
+  <span class="k">end</span>
+
+  <span class="k">if</span> <span class="vi">@vote</span><span class="o">.</span><span class="n">save</span>
+    <span class="n">redirect_to</span> <span class="s2">&quot;/questions/</span><span class="si">#{</span> <span class="vi">@vote</span><span class="o">.</span><span class="n">question_id</span> <span class="si">}</span><span class="s2">/results&quot;</span> 
+  <span class="k">end</span> 
+
+<span class="k">end</span>
+</pre></div>
+
+
+<p><a name="head4"></a></p>
+<h2 id="3-rotas">3. Rotas:</h2>
+<h6 id="summary_2"><a href="#summary3">Summary</a></h6>
+<p>Rotas devem sempre começar com letra minúscula<br>
+Os nomes devem ser intuitivos e em inglês<br>
+Exemplos:</p>
+<div class="codehilite"><pre><span></span><span class="c1">#questions</span>
+  <span class="n">get</span> <span class="s1">&#39;questions/humans&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;questions#humans&#39;</span>
+  <span class="n">get</span> <span class="s1">&#39;questions/languages&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;questions#languages&#39;</span>
+  <span class="n">get</span> <span class="s1">&#39;questions/math&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;questions#math&#39;</span>
+  <span class="n">get</span> <span class="s1">&#39;questions/nature&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;questions#nature&#39;</span>
+  <span class="n">get</span> <span class="s1">&#39;questions/recommended&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;questions#recommended&#39;</span>
+  <span class="n">get</span> <span class="s1">&#39;questions/upload&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;questions#new&#39;</span>
+  <span class="n">post</span> <span class="s1">&#39;questions/upload_questions&#39;</span>
+  <span class="n">post</span> <span class="s1">&#39;questions/upload_candidates_data&#39;</span>
+</pre></div>
+
+
+<p><a name="head6"></a></p>
+<h2 id="4-comentarios">4. Comentários:</h2>
+<h6 id="summary_3"><a href="#summary4">Summary</a></h6>
+<p>Os comentários devem sempre de acordo com a identação.<br>
+Devem começar com letra maiúscula.<br>
+Devem estar em português.</p>
+<div class="codehilite"><pre><span></span>  <span class="c1"># Meu exemplo de comentário</span>
+  <span class="c1"># Continua meu exemplo de comentário</span>
+</pre></div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../contribute/" title="Contribute" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Contribute
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../css/" title="Css" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Css
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
