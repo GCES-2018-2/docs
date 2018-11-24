@@ -1,5 +1,5 @@
 
-## SUMÁRIO
+## Sumário
 1. [Declaração de classes, funções e variáveis](#head1)<br />
 2. [Identação chaves e colchetes](#head2)<br />
 3. [Rotas](#head3)<br />

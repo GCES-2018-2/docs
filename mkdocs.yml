@@ -4,8 +4,8 @@ nav:
   - Home: index.md
   - Contribute: contribute.md
   - Stylesheet:
-    - Ruby: stylesheet/ruby.md
-    - Css: stylesheet/css.md
+    - Ruby Stylesheet: stylesheet/ruby.md
+    - Css Stylesheet: stylesheet/css.md
   - Contributors: contributors.md
   - Planejamento da Release: Planejamento-da-Release.md
   - Gerenciamento do Projeto:
