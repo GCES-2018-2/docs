@@ -1,0 +1,18 @@
+![Fluxo de Planos do PMBOK](https://raw.githubusercontent.com/wiki/fga-gpp-mds/Grupo---7-GPP-MDS/images/fluxoPmbok.jpg)
+[Fluxo de Processos do Guia PMBOK® 5ª Edição. Fonte: Ricardo Vargas]
+
+* [Gerenciamento de Projeto](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Projeto)
+* [Gerenciamento de Escopo](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Escopo)
+* [Gerenciamento de Cronograma](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Cronograma)
+* [Gerenciamento de Riscos](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Riscos)
+* [Gerenciamento de Aquisições](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Aquisi%C3%A7%C3%B5es)
+* [Gerenciamento de Comunicação](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Comunica%C3%A7%C3%A3o)
+* [Gerenciamento de Configuração de Software](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Configura%C3%A7%C3%A3o-de-Software)
+  *  [Tutorial de instalação](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Comandos-de-Instala%C3%A7%C3%A3o-do-Ambiente)
+  *  [Folha de Estilo](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Folha-de-Estilo)
+* [Gerenciamento de Custos](https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Custo)
+* [Gerenciamento de Qualidade](https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-de-Gerenciamento-de-Qualidade)
+  *  [Plano GQM](https://github.com/fga-gpp-mds/2017.1-SIGS/wiki/Plano-GQM)
+* [Gerenciamento de Recursos Humanos](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Recursos-Humanos)
+  *  [Plano de Treinamento](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Treinamento)
+* [Gerenciamento de Requisitos](https://github.com/fga-gpp-mds/Grupo---7-GPP-MDS/wiki/Plano-de-Gerenciamento-de-Requisitos)
