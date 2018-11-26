@@ -42,11 +42,20 @@ Thank you to all who helped with the project's growth
 
 | Name        |  E-mail       |   Github  |  
 |-------------|---------------|-----------|
-| Arthur Diniz | arthurbdiniz@gmail.com |[@arthurbdiniz](https://github.com/arthurbdiniz)|  ...    | [@](https://github.com/) |
+| Arthur Diniz | arthurbdiniz@gmail.com |[@arthurbdiniz](https://github.com/arthurbdiniz)   | [@](https://github.com/) |
 | Victor Moura | victor_cmoura@hotmail.com    | [@victorcmoura](https://github.com/victorcmoura) |
 | João Pedro Sconetto | sconetto.joao@gmail.com    | [@sconetto](https://github.com/sconetto) |
 | Romeu Carvalho | romeucarvalho2009@hotmail.com   | [@RomeuCarvalhoAntunes](https://github.com/RomeuCarvalhoAntunes) |
 | Hugo Martins | ...    | [@hugomartins013](https://github.com/hugomartins013) |
 | Kairon Velozo | kairon.vzb@gmail.com | [@kairon-v](https://github.com/kairon-v) || Romeu Carvalho | 
+
+
+## Hacktoberfest 2018
+
+| Name        |  E-mail       |   Github  |  
+|-------------|---------------|-----------|
+| Trevor Lewis | tdlewis7@gmail.com |[@trevlewis](https://github.com/trevlewis)   |
+| Fernando K | fer22f@gmail.com | [@fer22f](https://github.com/fer22f)   |
+
 
 
