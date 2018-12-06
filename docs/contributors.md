@@ -31,14 +31,14 @@ Thank you to all who helped with the project's growth
 |Vítor Barbosa|vitornga15@gmail.com       |[@vitorbaraujo](https://github.com/vitorbaraujo)| 
 
 
-## MPS-2017.1
+## GCES-2017.1
 
 | Name        |  E-mail        |   Github  |  
 |-------------|---------------------------|--- |
 |Matheus Richard | matheusrichardt@gmail.com |[@MatheusRich](https://github.com/MatheusRich)|  
 | ... | ...      | ...| 
 
-## MPS-2018.2
+## GCES-2018.2
 
 | Name        |  E-mail       |   Github  |  
 |-------------|---------------|-----------|

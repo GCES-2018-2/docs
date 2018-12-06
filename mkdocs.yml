@@ -40,7 +40,11 @@ nav:
     - Especificação Suplementar: especificacao-suplementar.md
     - Protótipo de Alta Fidelidade: Protótipo-de-Alta-Fidelidade.md
     - Relatório de Casos de Teste: Relatório-de-Casos-de-Teste.md
-  
+  - GCES 2018.2:
+    - Apresentação: presentation-gces-2018.2.md
+    - Antes e Depois: before-after-gces-2018.2.md
+
+
 theme:
   name: 'material'
   palette:
