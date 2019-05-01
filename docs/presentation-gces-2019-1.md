@@ -17,3 +17,13 @@
 | [#158](https://github.com/SIGS-UnB/core/issues/158) | A lista de solicitações não apresenta as solicitações | Concluída | [Stéfane Souza](https://github.com/stefanesouza) |
 | [#2](https://github.com/SIGS-UnB/core/issues/2) | Adicionar filtros nas salas de aula | Débito Técnica | [Lucas S. Souza](https://github.com/lucassoaresouza) |
 | [#91](https://github.com/SIGS-UnB/core/issues/91) | Rota para pagina de perfil por nome do usuario | Débito Técnica | [Emanuel Belchior](https://github.com/nukdown) |
+
+
+# Show Me The Code 02
+
+![image]()
+
+|Issue ID| Issue  | Status | Responsáveis |
+|-----|-----------------------------------|-----|--------------------|
+| [#205](https://github.com/SIGS-UnB/core/issues/205) | Criar fluxo principal na Home | Concluída | [Maria Luiza](https://github.com/mlfaa)|
+| [#206](https://github.com/SIGS-UnB/core/issues/206) | Criar protótipo para os filtros de alocação de salas | Concluída | [Maria Luiza](https://github.com/mlfaa) |
