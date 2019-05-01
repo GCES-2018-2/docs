@@ -27,3 +27,4 @@
 |-----|-----------------------------------|-----|--------------------|
 | [#205](https://github.com/SIGS-UnB/core/issues/205) | Criar fluxo principal na Home | Concluída | [Maria Luiza](https://github.com/mlfaa)|
 | [#206](https://github.com/SIGS-UnB/core/issues/206) | Criar protótipo para os filtros de alocação de salas | Concluída | [Maria Luiza](https://github.com/mlfaa) |
+| [#200](https://github.com/SIGS-UnB/core/issues/200) | Atualizar seed das salas da FGA| Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
