@@ -31,7 +31,7 @@
 | [#201](https://github.com/SIGS-UnB/core/issues/201) | Adicionar novos atributos às salas | Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
 | [#202](https://github.com/SIGS-UnB/core/issues/202) | Melhorar usabilidade da página de Gerência de Turmas | Concluída | [Adrianne Alves](https://github.com/drianne) |
 | [#212](https://github.com/SIGS-UnB/core/issues/212) | Documentar estrutura da base de dados | Concluída | [Adrianne Alves](https://github.com/drianne) |
-| [#199](https://github.com/SIGS-UnB/core/issues/199) | Melhorar usabilidade da página de Criação de Turmas | Concluída | [Stéfane Souza](https://github.com/stefanesouza) |
+| [#199](https://github.com/SIGS-UnB/core/issues/199) | Melhorar aparência da página de Criação de Turmas | Concluída | [Stéfane Souza](https://github.com/stefanesouza) |
 | [#208](https://github.com/SIGS-UnB/core/issues/208) | Criar categorias para as disciplinas | Concluída |  [Stéfane Souza](https://github.com/stefanesouza) |
 | [#91](https://github.com/SIGS-UnB/core/issues/91) | Débito - Rota para pagina de perfil por nome do usuario  | Débito técnico |  [Emanoel Belchior](https://github.com/nukdown) |
 | [#203](https://github.com/SIGS-UnB/core/issues/203) | Colocar indicador de cargo no perfil  | Pendente |  [Emanoel Belchior](https://github.com/nukdown) |
