@@ -28,7 +28,7 @@
 | [#205](https://github.com/SIGS-UnB/core/issues/205) | Criar fluxo principal na Home | Concluída | [Maria Luiza](https://github.com/mlfaa)|
 | [#206](https://github.com/SIGS-UnB/core/issues/206) | Criar protótipo para os filtros de alocação de salas | Concluída | [Maria Luiza](https://github.com/mlfaa) |
 | [#200](https://github.com/SIGS-UnB/core/issues/200) | Atualizar seed das salas da FGA| Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
-| [#201](https://github.com/SIGS-UnB/core/issues/201) | Adicionar novas issues às salas | Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
+| [#201](https://github.com/SIGS-UnB/core/issues/201) | Adicionar novos atributos às salas | Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
 | [#202](https://github.com/SIGS-UnB/core/issues/202) | Melhorar usabilidade da página de Gerência de Turmas | Concluída | [Adrianne Alves](https://github.com/drianne) |
 | [#212](https://github.com/SIGS-UnB/core/issues/212) | Documentar estrutura da base de dados | Concluída | [Adrianne Alves](https://github.com/drianne) |
 | [#199](https://github.com/SIGS-UnB/core/issues/199) | Melhorar usabilidade da página de Criação de Turmas | Concluída | [Stéfane Souza](https://github.com/stefanesouza) |
