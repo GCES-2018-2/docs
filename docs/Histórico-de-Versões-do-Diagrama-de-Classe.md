@@ -53,3 +53,9 @@
 
 ![classDiagram_4.0](https://raw.githubusercontent.com/wiki/fga-gpp-mds/2017.1-SIGS/images/classDiagram_4.0.png)
 [Ampliar Imagem](https://raw.githubusercontent.com/wiki/fga-gpp-mds/2017.1-SIGS/images/classDiagram_4.0.png)
+
+## Diagrama de Classes - Versão 4.1
+
+** Originado através do software Workbench por meio de engenharia reversa
+
+![](https://uploaddeimagens.com.br/images/002/105/239/original/class-diagram4.1.png?1557675502)
