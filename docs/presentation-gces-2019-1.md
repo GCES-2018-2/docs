@@ -51,4 +51,4 @@
 
 |Issue ID| Descrição  | Status | Responsáveis |
 |-----|-----------------------------------|-----|--------------------|  
-| [#241](https://github.com/SIGS-UnB/core/issues/241) | Melhorar usabilidade da página de alocação | Não definido | 
+| [#241](https://github.com/SIGS-UnB/core/issues/241) | Melhorar usabilidade da página de alocação | Priorizada  | Não definido
