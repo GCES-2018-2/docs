@@ -42,8 +42,8 @@
 |-----|-----------------------------------|-----|--------------------|
 | [#217](https://github.com/SIGS-UnB/core/issues/217) | Padronizar o layout ao pesquisar uma disciplina | Concluída | [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne) |
 | [#204](https://github.com/SIGS-UnB/core/issues/204) | Ordenar disciplinas alocadas e desalocadas  | Concluída | [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne)|
-| [#228](https://github.com/SIGS-UnB/core/issues/228) | Adicionar senha do banco de dados no deployment  | Em andamento | Equipe |
-| [#207](https://github.com/SIGS-UnB/core/issues/207) | Adicionar filtros de disciplinas obrigatórias e optativas |  | [Emanoel Belchior](https://github.com/nukdown) e [Stéfane Souza](https://github.com/stefanesouza) |
+| [#228](https://github.com/SIGS-UnB/core/issues/228) | Adicionar senha do banco de dados de produção  | Em andamento | Equipe |
+| [#207](https://github.com/SIGS-UnB/core/issues/207) | Adicionar filtros de disciplinas obrigatórias e optativas | Em andamento | [Emanoel Belchior](https://github.com/nukdown) e [Stéfane Souza](https://github.com/stefanesouza) |
 | [#198](https://github.com/SIGS-UnB/core/issues/198) | Consertar filtros na lista de salas | Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
 | [#220](https://github.com/SIGS-UnB/core/issues/220) | Atualizar seeds com disciplinas da FGA | Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
 
@@ -51,4 +51,4 @@
 
 |Issue ID| Descrição  | Status | Responsáveis |
 |-----|-----------------------------------|-----|--------------------|  
-| [#230](https://github.com/SIGS-UnB/core/issues/230) | Adicionar subcategorias às salas | Não definido |
+| [#241](https://github.com/SIGS-UnB/core/issues/241) | Melhorar usabilidade da página de alocação | Não definido | 
