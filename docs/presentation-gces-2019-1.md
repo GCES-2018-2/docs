@@ -40,6 +40,15 @@
 
 |Issue ID| Descrição  | Status | Responsáveis |
 |-----|-----------------------------------|-----|--------------------|
-| [#207](https://github.com/SIGS-UnB/core/issues/207) | Adicionar filtros na alocação de salas | Priorizada | Não definido |
+| [#207](https://github.com/SIGS-UnB/core/issues/207) | Adicionar filtros de disciplinas obrigatórias e optativas | Priorizada | Não definido |
 | [#204](https://github.com/SIGS-UnB/core/issues/204) | Alocar disciplinas de acordo à sua prioridade | Priorizada | Não definido |
 | [#198](https://github.com/SIGS-UnB/core/issues/198) | Consertar filtros na lista de salas | Priorizada | Não definido |  
+
+# Show Me The Code 03
+
+|Issue ID| Descrição  | Status | Responsáveis |
+|-----|-----------------------------------|-----|--------------------|
+| [#217](https://github.com/SIGS-UnB/core/issues/217) | Padronizar o layout ao pesquisar uma disciplina | Concluída | [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne) |
+| [#204](https://github.com/SIGS-UnB/core/issues/204) | Ordenar disciplinas alocadas e desalocadas  | Concluída | [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne)| 
+| [#228](https://github.com/SIGS-UnB/core/issues/228) | Adicionar senha do banco de dados no deployment  | Em andamento | | 
+
