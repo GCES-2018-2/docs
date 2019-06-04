@@ -55,5 +55,4 @@
 | [#2](https://github.com/SIGS-UnB/core/issues/2) | Adicionar filtro por alocação em gerenciamento de turma | Concluída  |  [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne)
 |[#241](https://github.com/SIGS-UnB/core/issues/241) | Melhorar layout da página de alocação | Concluída | [Stéfane Souza](https://github.com/stefanesouza) e [Lucas S. Souza](https://github.com/lucassoaresouza)
 |[#246](https://github.com/SIGS-UnB/core/issues/246) | Remover atributo ala da tabela de prédios | Concluída |  [Emanoel Belchior](https://github.com/nukdown)
-|[#246](https://github.com/SIGS-UnB/core/issues/246) | Remover atributo ala da tabela de prédios | Concluída |  [Emanoel Belchior](https://github.com/nukdown)
 |[#207](https://github.com/SIGS-UnB/core/issues/207) | Adicionar filtros de discplinas obrigatórias e optativas | Pendente | [Emanoel Belchior](https://github.com/nukdown) e [Stéfane Souza](https://github.com/stefanesouza)
