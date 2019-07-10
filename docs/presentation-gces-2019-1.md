@@ -61,9 +61,35 @@
 
 **Essa sprint foi dedicada à execução de princípios solid e práticas de clean code no projeto**
 
+* Clean Code 
+
+|Issue ID| Descrição  | Status | Responsáveis | 
+|-----|-----------------------------------|-----|--------------------|  
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Remoção de módulos não utilizados | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Tradução padronização e adição de comentários | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Inclusão as helpers na applicationController, a partir do qual todas as classes herdam | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução da complexidade cognitiva de get_valid_allocations_params (allocations controller) compondo com get_allocations_by_day | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Mudança de nomes, para nomes mais significativos em get_valid_allocations_params | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução da classe allocation_controller transferindo alguns métodos para a allocation_helper | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Refatoração do método get_rooms_by_capacity com a  [Maria Luiza](https://github.com/mlfaa), substituindo encadeamento de IF's | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução da complexidade cognitiva de notFinalDate(rooms module). | Concluída | [Adrianne Alves](https://github.com/drianne) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução do método search_rooms_by_name e decompondo ele em outro para manter o padrão dos filtros. | Concluída |  [Maria Luiza](https://github.com/mlfaa) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução do método search_rooms_by_building e decompondo ele em outro para manter o padrão dos filtros | Concluída |  [Maria Luiza](https://github.com/mlfaa) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução da complexidade cognitiva de dos métodos generate_by_room decompondo ele em generate_by_all_rooms. | Concluída |  [Maria Luiza](https://github.com/mlfaa) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Comentários em métodos relacionados a filtros em filter_rooms_extensions_helper. | Concluída |  [Maria Luiza](https://github.com/mlfaa) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Reaproveitando o método get_rooms em search_schedule e search_days com a [Adrianne Alves](https://github.com/drianne) | Concluída |  [Maria Luiza](https://github.com/mlfaa) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução do número de parâmetros do método 'run_all_allocation_date' de 5 para 4. | Concluída |  [Lucas S. Souza](https://github.com/lucassoaresouza) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução do método 'run_allocation' (ifs desnecessários) | Concluída |  [Lucas S. Souza](https://github.com/lucassoaresouza) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução do método 'run_all_allocation_date' decompondo parte dele em outro método. | Concluída |  [Lucas S. Souza](https://github.com/lucassoaresouza) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Remoção de métodos em JS não utlizados: ajaxReloadTable e generateTable. | Concluída |  [Lucas S. Souza](https://github.com/lucassoaresouza) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução do método 'make_cell' decompondo parte dele em outro método. | Concluída |  [Lucas S. Souza](https://github.com/lucassoaresouza) |
+| [#253](https://github.com/SIGS-UnB/core/issues/253) | Redução da complexidade cognitiva e divisão dos métodos: save_in_period, get_rooms, validate_courses, generate_by_room. | Concluída |  [Lucas S. Souza](https://github.com/lucassoaresouza) |
+
+
+
 * Solid Principles
 
 |Issue ID| Descrição  | Princípios | Status | Responsáveis | 
 |-----|-----------------------------------|-----------------------------------|-----|--------------------|  
 | [#252](https://github.com/SIGS-UnB/core/issues/252) |  Reaproveitamento e padronização dos filtros de salas |* Princípio da responsabilidade única: Garantir que a helper utilizada possui apenas os métodos relativos aos filtros para salas, podendo ser utilizados em outras páginas. <br> * Princípio do aberto/fechado: Fazer com que o modulo de filtros de rooms possa ser utilizado para compor coleção de métodos em outro modulo, fornecendo um conjunto de métodos padrão que podem ser extendido|Concluída  |  [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne) 
-| [#252](https://github.com/SIGS-UnB/core/issues/252) |  Desacoplar a autenticação do uso de funções das classes melhorando a coesão para as mesmas |* Princípio do aberto/fechado: Satisfazer esse principio criando uma autenticação a um nível acima de hierarquia das classes e possibilitar a extensão desta autenticação para futuras regras de negócio. <br> * Princípio da responsabilidade única: Especializar as controladoras nas funções de seu domínio, e desacoplar a responsabilidade de verificação do usuário logado para estas controladoras. <br> * Princípio da inversão de dependência: A session_helper não deve depender de detalhes das controladoras para autenticar, e sim as controladoras devem depender da abstração de autenticação da abstração(session_helper)| Testes quebrando  |  [Emanoel Belchior](https://github.com/nukdown)
+| [#252](https://github.com/SIGS-UnB/core/issues/252) |  Desacoplar a autenticação do uso de funções das classes melhorando a coesão para as mesmas |* Princípio do aberto/fechado: Satisfazer esse principio criando uma autenticação a um nível acima de hierarquia das classes e possibilitar a extensão desta autenticação para futuras regras de negócio. <br> * Princípio da responsabilidade única: Especializar as controladoras nas funções de seu domínio, e desacoplar a responsabilidade de verificação do usuário logado para estas controladoras. <br> * Princípio da inversão de dependência: A session_helper não deve depender de detalhes das controladoras para autenticar, e sim as controladoras devem depender da abstração de autenticação da abstração(session_helper)| Testes quebrando | [Stéfane Souza](https://github.com/stefanesouza)
