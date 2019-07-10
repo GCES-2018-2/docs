@@ -56,3 +56,14 @@
 |[#241](https://github.com/SIGS-UnB/core/issues/241) | Melhorar layout da página de alocação | Concluída | [Stéfane Souza](https://github.com/stefanesouza) e [Lucas S. Souza](https://github.com/lucassoaresouza)
 |[#246](https://github.com/SIGS-UnB/core/issues/246) | Remover atributo ala da tabela de prédios | Concluída |  [Emanoel Belchior](https://github.com/nukdown)
 |[#207](https://github.com/SIGS-UnB/core/issues/207) | Adicionar filtros de discplinas obrigatórias e optativas | Pendente | [Emanoel Belchior](https://github.com/nukdown) e [Stéfane Souza](https://github.com/stefanesouza)
+
+# Show Me The Code 05
+
+**Essa sprint foi dedicada à execução de princípios solid e práticas de clean code no projeto**
+
+* Solid Principles
+
+|Issue ID| Descrição  | Princípios | Status | Responsáveis | 
+|-----|-----------------------------------|-----------------------------------|-----|--------------------|  
+| [#252](https://github.com/SIGS-UnB/core/issues/252) |  Reaproveitamento e padronização dos filtros de salas |* Princípio da responsabilidade única: Garantir que a helper utilizada possui apenas os métodos relativos aos filtros para salas, podendo ser utilizados em outras páginas. <br> * Princípio do aberto/fechado: Fazer com que o modulo de filtros de rooms possa ser utilizado para compor coleção de métodos em outro modulo, fornecendo um conjunto de métodos padrão que podem ser extendido|Concluída  |  [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne) 
+| [#252](https://github.com/SIGS-UnB/core/issues/252) |  Desacoplar a autenticação do uso de funções das classes melhorando a coesão para as mesmas |* Princípio do aberto/fechado: Satisfazer esse principio criando uma autenticação a um nível acima de hierarquia das classes e possibilitar a extensão desta autenticação para futuras regras de negócio. <br> * Princípio da responsabilidade única: Especializar as controladoras nas funções de seu domínio, e desacoplar a responsabilidade de verificação do usuário logado para estas controladoras. <br> * Princípio da inversão de dependência: A session_helper não deve depender de detalhes das controladoras para autenticar, e sim as controladoras devem depender da abstração de autenticação da abstração(session_helper)| Testes quebrando  |  [Emanoel Belchior](https://github.com/nukdown)
