@@ -61,9 +61,9 @@
 
 **Essa sprint foi dedicada à execução de princípios solid e práticas de clean code no projeto**
 
-* Clean Code 
+* Clean Code
 
-|Issue ID| Descrição  | Status | Responsáveis | 
+|Issue ID| Descrição  | Status | Responsáveis |
 |-----|-----------------------------------|-----|--------------------|  
 | [#253](https://github.com/SIGS-UnB/core/issues/253) | 1. Remoção de módulos não utilizados ; 2. Padronização e adição de comentários; 3. Inclusão as helpers na applicationController, a partir do qual todas as classes herdam ; 4. Redução da complexidade cognitiva de get_valid_allocations_params (allocations controller) compondo com get_allocations_by_day ; 5. Mudança de nomes, para nomes mais significativos em get_valid_allocations_params ; 6. Redução da classe allocation_controller transferindo alguns métodos para a allocation_helper ; 7. Refatoração do método get_rooms_by_capacity com a  [Maria Luiza](https://github.com/mlfaa), substituindo encadeamento de IF's ; 8. Redução da complexidade cognitiva de notFinalDate(rooms module). | Concluída | [Adrianne Alves](https://github.com/drianne) |
 | [#253](https://github.com/SIGS-UnB/core/issues/253) | 1. Redução do método search_rooms_by_name e decompondo ele em outro para manter o padrão dos filtros ; 2. Redução do método search_rooms_by_building e decompondo ele em outro para manter o padrão dos filtros; 3. Redução da complexidade cognitiva de dos métodos generate_by_room decompondo ele em generate_by_all_rooms; 4. Comentários em métodos relacionados a filtros em filter_rooms_extensions_helper; 5. Reaproveitando o método get_rooms em search_schedule e search_days com a [Adrianne Alves](https://github.com/drianne) | Concluída |  [Maria Luiza](https://github.com/mlfaa) |
@@ -74,16 +74,16 @@
 
 * Solid Principles
 
-|Issue ID| Descrição  | Princípios | Status | Responsáveis | 
+|Issue ID| Descrição  | Princípios | Status | Responsáveis |
 |-----|-----------------------------------|-----------------------------------|-----|--------------------|  
-| [#252](https://github.com/SIGS-UnB/core/issues/252) |  Reaproveitamento e padronização dos filtros de salas |* Princípio da responsabilidade única: Garantir que a helper utilizada possui apenas os métodos relativos aos filtros para salas, podendo ser utilizados em outras páginas. <br> * Princípio do aberto/fechado: Fazer com que o modulo de filtros de rooms possa ser utilizado para compor coleção de métodos em outro modulo, fornecendo um conjunto de métodos padrão que podem ser extendido|Concluída  |  [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne) 
+| [#252](https://github.com/SIGS-UnB/core/issues/252) |  Reaproveitamento e padronização dos filtros de salas |* Princípio da responsabilidade única: Garantir que a helper utilizada possui apenas os métodos relativos aos filtros para salas, podendo ser utilizados em outras páginas. <br> * Princípio do aberto/fechado: Fazer com que o modulo de filtros de rooms possa ser utilizado para compor coleção de métodos em outro modulo, fornecendo um conjunto de métodos padrão que podem ser extendido|Concluída  |  [Maria Luiza](https://github.com/mlfaa) e [Adrianne Alves](https://github.com/drianne)
 | [#252](https://github.com/SIGS-UnB/core/issues/252) |  Desacoplar a autenticação do uso de funções das classes melhorando a coesão para as mesmas |* Princípio do aberto/fechado: Satisfazer esse principio criando uma autenticação a um nível acima de hierarquia das classes e possibilitar a extensão desta autenticação para futuras regras de negócio. <br> * Princípio da responsabilidade única: Especializar as controladoras nas funções de seu domínio, e desacoplar a responsabilidade de verificação do usuário logado para estas controladoras. <br> * Princípio da inversão de dependência: A session_helper não deve depender de detalhes das controladoras para autenticar, e sim as controladoras devem depender da abstração de autenticação da abstração(session_helper)| Testes quebrando | [Emanoel Belchior](https://github.com/nukdown)
 
 # Final Presentation
 
 **Essa sprint foi dedicada à implementação e execução de issues consideradas importantes que não foram resolvidas**
 
-|Issue ID| Descrição  | Status | Responsáveis | 
+|Issue ID| Descrição  | Status | Responsáveis |
 |-----|-----------------------------------|-----|--------------------|  
 | [#258](https://github.com/SIGS-UnB/core/issues/258) |  Consertar filtro de salas por campus | Concluída | [Maria Luiza](https://github.com/mlfaa) |
 | [#268](https://github.com/SIGS-UnB/core/issues/268) |  Apresentar resultado da pesquisa em turmas na mesma página | Concluída | [Maria Luiza](https://github.com/mlfaa) |
@@ -92,6 +92,6 @@
 | [#265](https://github.com/SIGS-UnB/core/issues/265) |  Organizar Layout da página de turmas | Concluída | [Adrianne Alves](https://github.com/drianne) |
 | [#270](https://github.com/SIGS-UnB/core/issues/270) |  Padronização da apresentação dos intervalos de horário nas tabelas de alocação| Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
 | [#271](https://github.com/SIGS-UnB/core/issues/271) |  Padronização da apresentação das tabelas de alocação| Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
-| [#279](https://github.com/SIGS-UnB/core/issues/279) |  Colorir células da tabela de alocação | Em progresso | [Lucas S. Souza](https://github.com/lucassoaresouza) |
+| [#279](https://github.com/SIGS-UnB/core/issues/279) |  Colorir células da tabela de alocação | Concluída | [Lucas S. Souza](https://github.com/lucassoaresouza) |
 | [#275](https://github.com/SIGS-UnB/core/issues/275) |  Adicionar campo de detalhes nas salas| Concluída | [Stéfane Souza](https://github.com/stefanesouza) |
 | [#276](https://github.com/SIGS-UnB/core/issues/276) |  Adicionar modal com informações sobre sala | Concluída | [Stéfane Souza](https://github.com/stefanesouza) |
