@@ -57,5 +57,13 @@ Thank you to all who helped with the project's growth
 | Trevor Lewis | tdlewis7@gmail.com |[@trevlewis](https://github.com/trevlewis)   |
 | Fernando K | fer22f@gmail.com | [@fer22f](https://github.com/fer22f)   |
 
+## GCES-2019.1
 
+| Name        |  E-mail       |   Github  |  
+|-------------|---------------|-----------|
+| Adrianne Alves da Silva | driah_as@hotmail.com | [@drianne](driah_as@hotmail.com) | 
+| Emanoel Belchior Elias de França | belchior.emanoel@gmail.com | [@nukdown](belchior.emanoel@gmail.com) | 
+| Lucas Soares Souza | lucas.soaresouza@gmail.com | [@lucassoaresouza](lucas.soaresouza@gmail.com) | 
+| Maria Luiza Ferreira Assumpção Almeida | mlfaa@hotmail.com | [@mlfaa](mlfaa@hotmail.com) | 
+| Stéfane Bogéa de Souza | stefanesouza04@gmail.com | [@stefanesouza](stefanesouza04@gmail.com) | 
 
