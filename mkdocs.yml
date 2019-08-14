@@ -43,7 +43,8 @@ nav:
   - GCES 2018.2:
     - Apresentação: presentation-gces-2018.2.md
     - Antes e Depois: before-after-gces-2018.2.md
-
+  - GCES 2019.1
+    - Apresentação: presentation-gces-2019.1.md
 
 theme:
   name: 'material'
